@@ -1,0 +1,81 @@
+{
+    "name": "Samer Metri",
+    "education": {
+        "school": "University of California, Irvine",
+        "degree": "Bachelor of Science in Biological Sciences",
+        "graduation": "June 2018",
+        "specialization": "Genetics",
+        "GPA": 3.7,
+        "majorGPA": 3.7
+    },
+    "experience": [
+        {
+            "employer": "Esser-Khan Laboratory",
+            "title": "Lab Assistant",
+            "time": "October 2015 - June 2016",
+            "shorttime": "Oct 2015 - Jun 2016",
+            "duties": [
+                "Conducted chemical reactions and imaged the results in for proper analysis.", 
+                "Assisted with the process of interpreting research results and error analysis in order to achieve better results in future experiments"
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://oit.uci.edu/resnet"
+        },
+        {
+            "employer": "UC Irvine Residential Network Services",
+            "title": "Consultant",
+            "time": "January 2015 - Present",
+            "shorttime": "Jan 2015 - Present",
+            "duties": [
+                "Service and support technical networking issues for residents across on-campus housing communities.",
+                "Troubleshoot campus cable TV and the Application, Network, Data and Physical layers of the OSI Networking Model.",
+                "Coordinate with various campus organizations to enforce and maintain campus network policy and infrastructure.",
+                "Collaborate with campus network engineers and fellow RNC’s in troubleshooting procedures.",
+                "Maintain, repair and install core switching and routing equipment."
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://oit.uci.edu/resnet"
+        },
+        {
+            "employer": "TAZA Systems",
+            "title": "Software Developer",
+            "time": "June 2013 - Present",
+            "shorttime": "Jun 2013 - Present",
+            "duties": [
+                "Developed and updated mobile applications used by hundreds of customers on a daily basis.",
+                "Assisted in web development for multiple web applications and web pages.", 
+                "Troubleshooted production level applications to fix bugs in order to provide the customer a more pleasant experience"
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://tazasystems.com/"
+        }
+        
+    ],
+    "projects": {
+
+    },
+    "skills": {
+        "programming": [
+            "MATLAB/GNU Octave",
+            "Python (2.7-3.5)",
+            "C (C99 and GNU C)",
+            "C++ 14",
+            "Intel x86 MASM",
+            "BASH/Unix"
+        ],
+        "operatingSystems": [
+            "Windows XP-10",
+            "Mac OS X",
+            "Linux (Ubuntu/Debian and Arch)"
+        ],
+        "miscellaneous": [
+            "Git Version Control (Git CLI and GitHub)",
+            "Microsoft/Open Office Suite"
+        ]
+    },
+    "awards": [
+        "Member of Tau Beta Pi, America's 2nd oldest Engineering and Computer Science Honor Society",
+        "Dean's List Honors, 5 Quarters"
+    ]
+
+}
