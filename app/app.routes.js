@@ -15,7 +15,11 @@ samermetri.config(function($locationProvider, $routeProvider) {
             controller : 'resume'
         })
 
+        .when('/tools', {
+            templateUrl : 'app/components/tools.html'
+        })
+
         .otherwise({
-            templateUrl : 'app/components/error404/error404.html'
+            templateUrl : 'app/components/errors/error404.html'
         });
 });

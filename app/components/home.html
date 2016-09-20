@@ -1,35 +1,33 @@
-<div class="jumbotron" id="nav-jumbo">
-    <div class="containter">
-    <!-- <h1>home information will go here eventually</h1> -->
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12">
+<div class="container-fluid" ng-controller="personalInformation">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12 col-sm-12">
+            <div class="card hovercard">
+                
+                <!-- Empty card header
+                     The Background color and/or Image can be changed from the css file.
+                 -->
+                <div class="cardheader"></div>
 
-                <div class="card hovercard">
-                    <div class="cardheader"></div>
-
-
-                    <div class="avatar">
-                        <img alt="" src="content/files/profilepic.jpg">
-                    </div>
-                    <div class="info">
-                        <div class="title">
-                            Samer Metri
-                        </div>
-                        <div class="desc">Curious Researcher</div>
-                        <div class="desc">Passionate Learner</div>
-                        <div class="desc">Tech geek</div>
-                    </div>
-
-                    <div class="middle">
-                        Some content here
-                    </div>
-
-                    <div class="bottom">
-                        Footer of some sort here.
-                    </div>
+                <!-- Circular Image -->
+                <div class="avatar">
+                    <img alt="" src="{{ profilePictureURL }}">
                 </div>
-            </div>
+                            
+
+                <div class="info">
+                    <div class="title">{{ name }}</div>
+                    <div class="desc" ng-repeat="desc in personalDescription">{{desc}}</div> 
+                </div>
+
+
+                <div class="middle">
+                    Some content here
+                </div>
+
+                <div class="bottom">
+               
+                </div>
+            </div>               
         </div>
     </div>
 </div>
-

@@ -1,5 +1,9 @@
 function get(req, res, dir) {
-    res.sendFile(dir + "/index.html");
+	try{
+    	res.sendFile(dir + "/index.html");
+    }catch (ex){
+    	
+    }
 }
 
 

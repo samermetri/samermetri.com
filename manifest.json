@@ -1,0 +1,15 @@
+{
+  "name": "Samer Metri",
+  "short_name": "Samer Metri",
+  "start_url": ".",
+  "display": "browser",
+  "background_color": "#dddddd",
+  "theme_color": "#3E4551",
+  "description": "Samer Metri's Personal Website",
+  "icons": [{
+    "src": "/content/icons/logo.png",
+    "type": "image/png"
+  }],
+  "start_url": "/index.html",
+  "orientation": "portrait"
+}

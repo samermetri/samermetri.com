@@ -1,5 +1,5 @@
     <!DOCTYPE html>
-<html>
+<html >
 
 <head>
     <TITLE>Samer Metri</TITLE>
@@ -24,8 +24,10 @@
 
     <!-- Bootstrap Custom Navbar -->
     <link rel="stylesheet" type="text/css" href="content/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="content/css/footer.css">
     <link rel="stylesheet" type="text/css" href="content/css/panel.css">
-        <link rel="stylesheet" type="text/css" href="content/css/card.css">
+    <link rel="stylesheet" type="text/css" href="content/css/card.css">
+    <!-- <link rel="stylesheet" type="text/css" href="content/css/btn_circles.css"> -->
 
 
     <!-- FavIcon  http://bit.ly/2dcr2mS-->
@@ -38,11 +40,19 @@
 
     <!-- Google Search -->
     <meta name="description" content="Samer Metri's Personal Website" />
+    <meta name="keywords" content="samer, metri, samermetri, samermetri@gmail.com, rafik, samer rafik metri">
+
+    <!-- Manifest Files -->
+    <link rel="manifest" href="manifest.json">
+   
+
+    <!-- Search Engine Crawler SEO -->
+
 </head>
 
 <body ng-app="samermetri">
 
-
+    <!-- Navigation Bar -->
      <nav class="navbar navbar-default navbar-fixed-top" ng-controller="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
@@ -63,10 +73,17 @@
             </div>
         </nav>
 
-
+    <!-- Website Content - Loaded using Angular -->
     <div ng-view></div>
 
-
+    
+    <!-- Footer -->
+    <footer class="footer footer-default"  ng-controller="personalInformation"> 
+      <div class="container text-center">
+        <h3 class=" footer-header" >Contact Me</h3>
+        <a class="mdi mdi-email" href="mailto:{{email}}"> {{email}}</a>
+      </div>
+    </footer>
 
 
     <!-- JQuery -->
@@ -90,14 +107,65 @@
     <!-- Components -->
     <script src="app/components/navbar.js"></script>
     <script src="app/components/resume.js"></script>
+    <script src="app/components/personalInformation.js"></script>
     <script src="app/components/employmentInformation.js"></script>
-
-
+    <script src="app/components/skillsInformation.js"></script>
+    <script src="app/components/fab.js"></script>
+    
     <!-- NavBar -->
     <script src="content/js/navbar.js"></script>
 
-<script>
 
-</script>
+
+    <!-- Google Search Results -->
+
+ <!-- Google Search Results -->
+    <script type="application/ld+json">
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "http://samermetri.com",
+          "copyrightYear": "2016",
+          "name": "Samer Metri",
+          "alternateName": "SamerMetri.com",
+          "description": "Samer Metri's Personal Website",
+          "creator": {
+              "@context": "http://schema.org",
+              "@type": "Person",
+              "name": "Samer Metri",
+              "givenName": "Samer",
+              "familyName": "Metri",
+              "image" : "content/files/profilepic.jpg",
+              "url": "http://samermetri.com",
+              "gender": "male",
+              "email": "samermetri@gmail.com",
+              "sameAs": [
+                "https://www.facebook.com/samermetri",
+                "https://www.instagram.com/samermetri/",
+                "https://www.linkedin.com/in/samer-metri-a85642118",
+                "https://plus.google.com/u/0/110972891061876363044"
+              ]
+            }   
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Person",
+      "name": "Samer Metri",
+      "givenName": "Samer",
+      "familyName": "Metri",
+      "image" : "content/files/profilepic.jpg",
+      "url": "http://samermetri.com",
+      "gender": "male",
+      "email": "samermetri@gmail.com",
+      "sameAs": [
+        "https://www.facebook.com/samermetri",
+        "https://www.instagram.com/samermetri/",
+        "https://www.linkedin.com/in/samer-metri-a85642118",
+        "https://plus.google.com/u/0/110972891061876363044"
+      ]
+    }
+    </script>
 </body>
 </html>

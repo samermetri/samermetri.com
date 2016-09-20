@@ -15,8 +15,8 @@ $(document).ready(function () {
 
 
 window.onscroll = function (e) {  
-    if ($("#avbar-collapse").is(":visible"))
-        $('.navbar-collapse.in').collapse('hide');
+    //if ($("#avbar-collapse").is(":visible"))
+    $('.navbar-collapse.in').collapse('hide');
 } 
 
 

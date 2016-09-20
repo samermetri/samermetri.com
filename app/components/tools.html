@@ -1,0 +1,138 @@
+<div class="container col-lg-6 col-md-8 col-sm-12 col-md-offset-2 col-lg-offset-3" style="padding-top: 50px">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4><b>Encryption</b></h4>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="stringTextField">Text to Encrypt/Decrypt</label>
+                <input class="form-control" id="stringTextField" placeholder="String">
+            </div>
+            <div class="form-group">
+                <label for="passwordTextField">Password</label>
+                <input type="password" class="form-control" id="passwordTextField" placeholder="Password">
+            </div>
+
+            <div class="text-center">
+				<a class="btn btn-default" href="javascript:encrypt();">Encrypt</a>
+				<a class="btn btn-default" href="javascript:decrypt();">Decrypt</a>
+			</div>
+        </div>
+    </div>
+
+	<div class="panel panel-default">
+        <div class="panel-heading">
+            <h4><b>Fake Emailing</b></h4>
+        </div>
+        <div class="panel-body">
+            <div class="form-group">
+                <label for="fromNameTextField">From Name</label>
+                <input class="form-control" id="fromNameTextField" placeholder="From Name">
+            </div>
+            <div class="form-group">
+                <label for="fromEmailTextField">From Email</label>
+                <input type="email" class="form-control" id="fromEmailTextField" placeholder="From Email">
+            </div>
+            <div class="form-group">
+                <label for="toEmailTextField">To Email</label>
+                <input type="email" class="form-control" id="toEmailTextField" placeholder="To Email">
+            </div>
+            <div class="form-group">
+                <label for="fromNameTextField">Subject</label>
+                <input class="form-control" id="subjectTextField" placeholder="Subject">
+            </div>
+            <div class="form-group">
+            <label for="bodyTextField">Body</label>
+                <textarea class="form-control" rows="3" id="bodyTextField"></textarea>
+            </div>
+            <div class="text-center">
+             	<a class="btn btn-default" href="javascript:sendEmail();">Send Email</a>
+             </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+var stringTextField = document.getElementById('stringTextField');
+var passwordTextField = document.getElementById('passwordTextField');
+var fromNameTextField = document.getElementById('fromNameTextField');
+var fromEmailTextField = document.getElementById('fromEmailTextField');
+var toEmailTextField = document.getElementById('toEmailTextField');
+var subjectTextField = document.getElementById('subjectTextField');
+var bodyTextField = document.getElementById('bodyTextField');
+
+
+function encrypt(){
+	if (!stringTextField.value)
+		return;
+	var obj = new EncryptText_obj(stringTextField.value, passwordTextField.value )
+	CallWebService('EncryptText', obj, function (data){
+		stringTextField.value = data.Product;
+	});
+}
+
+function decrypt(){
+	if (!stringTextField.value)
+		return;
+	var obj = new EncryptText_obj(stringTextField.value, passwordTextField.value )
+	CallWebService('DecryptText', obj, function (data){
+		stringTextField.value = data.Product;
+	});
+}
+
+function sendEmail(){
+	if (!fromNameTextField.value || !fromEmailTextField.value || !toEmailTextField.value || !subjectTextField.value || !bodyTextField.value )
+		return;
+
+	var obj = new SendEmail_obj(toEmailTextField.value, bodyTextField.value, fromEmailTextField.value, fromNameTextField.value, subjectTextField.value);
+	CallWebService('SendEmail', obj, function (data){
+		if (data.IsError){
+			alert(data.Msg);
+		}else{
+			alert("Email Sent");
+		}
+	});
+
+}
+
+
+// Objects
+function EncryptText_obj (input, password) {
+	this.input = input;
+	this.password = password;
+}
+
+function SendEmail_obj (ToAddress, Body, FromAddress, FromName, Subject) {
+	this.ToAddress = ToAddress;
+	this.Body = Body;
+	this.FromAddress = FromAddress;
+	this.FromName = FromName;
+	this.Subject = Subject;
+}
+
+// Webservice Call
+function CallWebService(functionName, d, successFunction) {
+    try {
+        var mainURL = window.location.protocol + '//asp.samermetri.com/Dev/encryptwebservices.asmx/'
+        $.ajax({
+            type: 'POST',
+            url: mainURL + functionName,
+            data: JSON.stringify(d),
+            dataType: 'json',
+            contentType: 'application/json; charset=utf-8',
+            success: function (response) {
+                if (typeof successFunction === 'function')
+                    successFunction(response.d);
+            },
+            error: function (error) {
+                console.warn("Error During Ajax Call \n\n" + GetObjectAsString(error));
+            }
+        });
+    } catch (err) {
+        reportError(err.message);
+    }
+}
+
+</script>

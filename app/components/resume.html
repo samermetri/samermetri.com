@@ -1,9 +1,62 @@
+<style>
+.fab {
+    margin: 0px;
+    top: auto;
+    right: 20px;
+    bottom: 20px;
+    left: auto;
+    position: fixed;
+    z-index:100;
+};
+
+
+</style>
 <div class="container" style="padding-top: 25px">
     <h2>Resume</h2>
-    <!-- education -->
+
+
+    <!-- GPA and Education -->
+
+    <!-- employment history -->
     <div ng-repeat="job in experience">
         <employment-information info="job"></employment-information>
     </div>
-    <!-- projects overview -->
+
+
     <!-- skils -->
+    <div class="row">
+	    <div ng-repeat="skill in skills">
+	        <skills-information info="skill"></skills-information>
+	    </div>
+    </div>
+
+  
+
+<!-- <div class=" floating-action-button fab waves-effect waves-light">
+    <a  class="btn btn-primary btn-fab btn-raised dropdown-toggle fab" 
+        style="background-color: #25282e !important;" 
+        href="javascript:alert('not done yet');" >
+            <i class="material-icons">save</i>
+    </a>
+</div> -->
+
+
+<!-- <div class=" floating-action-button fab waves-effect waves-light">
+    <a  class="btn btn-primary btn-fab btn-raised dropdown-toggle fab mdi  mdi-content-save
+        style="background-color: #25282e !important;" 
+        href="javascript:alert('not done yet');" >
+            <i class="material-icons">save</i>
+    </a>
+</div>
+"mdi mdi-{{ icon }}" -->
+
+
+
+<fab icon="'save'" href="'javascript:alert(\'hello\');'" > </fab>
+
+
+
+
+
+</div>
 </div>

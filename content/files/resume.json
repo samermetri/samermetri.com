@@ -10,18 +10,6 @@
     },
     "experience": [
         {
-            "employer": "Esser-Khan Laboratory",
-            "title": "Lab Assistant",
-            "time": "October 2015 - June 2016",
-            "shorttime": "Oct 2015 - Jun 2016",
-            "duties": [
-                "Conducted chemical reactions and imaged the results in for proper analysis.", 
-                "Assisted with the process of interpreting research results and error analysis in order to achieve better results in future experiments"
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://oit.uci.edu/resnet"
-        },
-        {
             "employer": "UC Irvine Residential Network Services",
             "title": "Consultant",
             "time": "January 2015 - Present",
@@ -35,6 +23,32 @@
             ],
             "icon": "content/img/uci_icon.png",
             "url": "http://oit.uci.edu/resnet"
+        },
+        {
+            "employer": "Anticancer",
+            "title": "Research Intern",
+            "time": "June 2016 - September 2016",
+            "shorttime": "Jun 2016 - Sept 2016",
+            "duties": [
+                "Experimented with orthotopic mouse models to discover potential cancer treatment drugs",
+                "Experimented with fluorescent cancer cells for better imaging and anaylsis of tumors",
+                "Operated on mice to inject cancer into muscle tissues",
+                "Performed liver extraction surgeries to analyze the level of cancer metastasis occuring"
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://www.anticancer.com/"
+        },
+        {
+            "employer": "Esser-Khan Laboratory",
+            "title": "Lab Assistant",
+            "time": "October 2015 - June 2016",
+            "shorttime": "Oct 2015 - Jun 2016",
+            "duties": [
+                "Conducted chemical reactions and imaged the results in for proper analysis.", 
+                "Assisted with the process of interpreting research results and error analysis in order to achieve better results in future experiments"
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://chem.uci.edu/~esserkahngroup/"
         },
         {
             "employer": "TAZA Systems",
@@ -54,25 +68,45 @@
     "projects": {
 
     },
-    "skills": {
-        "programming": [
-            "MATLAB/GNU Octave",
-            "Python (2.7-3.5)",
-            "C (C99 and GNU C)",
-            "C++ 14",
-            "Intel x86 MASM",
-            "BASH/Unix"
-        ],
-        "operatingSystems": [
-            "Windows XP-10",
-            "Mac OS X",
-            "Linux (Ubuntu/Debian and Arch)"
-        ],
-        "miscellaneous": [
-            "Git Version Control (Git CLI and GitHub)",
-            "Microsoft/Open Office Suite"
-        ]
-    },
+    "skills": [
+        {
+            "title": "Laboratory Skills",
+            "details": [
+                "Culturing and Subculturing cells",
+                "Mice injections and basic surgery procedures",
+                "Microscopy and Data Analysis",
+                "Basic Laboratory equipment and glassware use"
+            ]
+        },
+        {
+            "title": "Programming Skills",
+            "details": [
+                "Python",
+                "Javascript",
+                "Visual Basic",
+                "C# (C-Sharp)"
+            ]
+        },
+        {
+            "title": "Tools",
+            "details": [
+                "Image Acquisition Pro",
+                "Microsoft Visual Studio",
+                "Microsoft Office Products",
+                "Photoshop"
+            ]
+        },
+        {
+            "title": "Operating Systems",
+            "details": [
+                "Windows",
+                "Mac OS X",
+                "iOS",
+                "Android"
+            ]
+        }
+        
+    ],  
     "awards": [
         "Member of Tau Beta Pi, America's 2nd oldest Engineering and Computer Science Honor Society",
         "Dean's List Honors, 5 Quarters"
