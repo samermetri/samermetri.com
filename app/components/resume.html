@@ -8,9 +8,8 @@
     position: fixed;
     z-index:100;
 };
-
-
 </style>
+
 <div class="container" style="padding-top: 25px">
     <h2>Resume</h2>
 
@@ -30,33 +29,16 @@
 	    </div>
     </div>
 
-  
-
-<!-- <div class=" floating-action-button fab waves-effect waves-light">
-    <a  class="btn btn-primary btn-fab btn-raised dropdown-toggle fab" 
-        style="background-color: #25282e !important;" 
-        href="javascript:alert('not done yet');" >
-            <i class="material-icons">save</i>
-    </a>
-</div> -->
-
-
-<!-- <div class=" floating-action-button fab waves-effect waves-light">
-    <a  class="btn btn-primary btn-fab btn-raised dropdown-toggle fab mdi  mdi-content-save
-        style="background-color: #25282e !important;" 
-        href="javascript:alert('not done yet');" >
-            <i class="material-icons">save</i>
-    </a>
+    <!-- FAB -->
+    <fab icon="'save'" href="'javascript:downloadResume();'"></fab>
 </div>
-"mdi mdi-{{ icon }}" -->
 
-
-
-<fab icon="'save'" href="'javascript:alert(\'hello\');'" > </fab>
-
-
-
-
-
-</div>
-</div>
+<script>
+    function downloadResume(){
+        var link = document.createElement('a');
+            link.href = "/content/files/resume.pdf";
+            link.download = 'SamerMetri_Resume.pdf';
+            link.dispatchEvent(new MouseEvent('click'));
+            //link.click();
+    }
+</script>

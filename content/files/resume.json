@@ -10,90 +10,101 @@
     },
     "experience": [
         {
-            "employer": "UC Irvine Residential Network Services",
-            "title": "Consultant",
-            "time": "January 2015 - Present",
-            "shorttime": "Jan 2015 - Present",
+            "employer": "Sue and Bill Gross Stem Cell Research Center ",
+            "title": "Undergraduate Research Assistant",
+            "time": "October 2016 - Present",
+            "shorttime": "Oct 2016 - Present",
             "duties": [
-                "Service and support technical networking issues for residents across on-campus housing communities.",
-                "Troubleshoot campus cable TV and the Application, Network, Data and Physical layers of the OSI Networking Model.",
-                "Coordinate with various campus organizations to enforce and maintain campus network policy and infrastructure.",
-                "Collaborate with campus network engineers and fellow RNC’s in troubleshooting procedures.",
-                "Maintain, repair and install core switching and routing equipment."
+                "Collected, analyzed and imaged mouse squamous cell carcinoma tumors to determine the clonal contribution of stem-like cells using a rainbow reporter construct and fluorescent microscopy",
+                "Performed cryostat sectioning and immunohistochemistry staining to verify the presence of proteins and gene markers and consulted with a pathologist to correctly identify different types of squamous cell carcinoma tumors",
+                "Enhanced and edited fluorescence microscopy images to create publication quality figures"
             ],
             "icon": "content/img/uci_icon.png",
-            "url": "http://oit.uci.edu/resnet"
+            "url": "http://www.uci.edu/"
         },
         {
             "employer": "Anticancer",
             "title": "Research Intern",
-            "time": "June 2016 - September 2016",
-            "shorttime": "Jun 2016 - Sept 2016",
+            "time": "May 2016 - September 2016",
+            "shorttime": "May 2016 - Sept 2016",
             "duties": [
-                "Experimented with orthotopic mouse models to discover potential cancer treatment drugs",
-                "Experimented with fluorescent cancer cells for better imaging and anaylsis of tumors",
-                "Operated on mice to inject cancer into muscle tissues",
-                "Performed liver extraction surgeries to analyze the level of cancer metastasis occuring"
+                "Analyzed the effect of vitamin C on the rate of tumor metastasis following invasive surgery after mice injection with human tumor cells and compared it with a control group to quantify the results",
+                "Cultured and prepared human cancer cells to prepare for mice injection and performed autopsies on surgical fatalities to examine the cause of death and minimize the rate of future surgical complications"
             ],
             "icon": "content/img/uci_icon.png",
             "url": "http://www.anticancer.com/"
         },
         {
             "employer": "Esser-Khan Laboratory",
-            "title": "Lab Assistant",
+            "title": "Undergraduate Research Assistant",
             "time": "October 2015 - June 2016",
             "shorttime": "Oct 2015 - Jun 2016",
             "duties": [
-                "Conducted chemical reactions and imaged the results in for proper analysis.", 
-                "Assisted with the process of interpreting research results and error analysis in order to achieve better results in future experiments"
+                "Conducted chemical reactions and imaged the results in order to determine the best concentration and flow rate needed in order to achieve optimal growth and etching in Polydimethylsiloxane polym¬¬ers",
+                "Imaged polymers and obtained measurements before and after experimental runs to analyze the results and fine tune the setup in future experimental runs to obtain more accurate and precise data"
             ],
             "icon": "content/img/uci_icon.png",
             "url": "http://chem.uci.edu/~esserkahngroup/"
         },
         {
-            "employer": "TAZA Systems",
+            "employer": "UC Irvine, Office of Information and Technology",
+            "title": "Senior Network Consultant",
+            "time": "January 2015 - Present",
+            "shorttime": "Jan 2015 - Present",
+            "duties": [
+                "One of two lead programmers tasked with creating and maintaining one of the help desk’s most used tools",
+                "Supervise day-to-day tasks of student employees, including hiring and scheduling of student staff and arrange internal documentation to train both student and full time staff in network troubleshooting"
+            ],
+            "icon": "content/img/uci_icon.png",
+            "url": "http://oit.uci.edu/"
+        },
+        {
+            "employer": "Taza Systems",
             "title": "Software Developer",
-            "time": "June 2013 - Present",
-            "shorttime": "Jun 2013 - Present",
+            "time": "May 2014 - September 2014",
+            "shorttime": "May 2014 - Sept 2014",
             "duties": [
                 "Developed and updated mobile applications used by hundreds of customers on a daily basis.",
-                "Assisted in web development for multiple web applications and web pages.", 
+                "Assisted in web development for multiple web applications and web pages.",
                 "Troubleshooted production level applications to fix bugs in order to provide the customer a more pleasant experience"
             ],
             "icon": "content/img/uci_icon.png",
             "url": "http://tazasystems.com/"
         }
-        
     ],
-    "projects": {
-
-    },
+    "projects": {},
     "skills": [
         {
             "title": "Laboratory Skills",
             "details": [
-                "Culturing and Subculturing cells",
-                "Mice injections and basic surgery procedures",
-                "Microscopy and Data Analysis",
-                "Basic Laboratory equipment and glassware use"
+                "Zeiss Fluorescence Microscope",
+                "Nikon Ti-E Inverted Microscope",
+                "Image Acquisition Pro",
+                "Cryostat sectioning",
+                "Cell culturing",
+                "Mice injections",
+                "Basic mice surgical procedures"
             ]
         },
         {
             "title": "Programming Skills",
             "details": [
+                "R",
                 "Python",
-                "Javascript",
+                "JavaScript",
+                "C-Sharp",
                 "Visual Basic",
-                "C# (C-Sharp)"
+                "HTML",
+                "CSS"
             ]
         },
         {
-            "title": "Tools",
+            "title": "Technical Skills",
             "details": [
-                "Image Acquisition Pro",
-                "Microsoft Visual Studio",
-                "Microsoft Office Products",
-                "Photoshop"
+                "Microsoft Excel",
+                "Image J",
+                "Adobe Photoshop",
+                "Adobe Illustrator"
             ]
         },
         {
@@ -105,11 +116,6 @@
                 "Android"
             ]
         }
-        
-    ],  
-    "awards": [
-        "Member of Tau Beta Pi, America's 2nd oldest Engineering and Computer Science Honor Society",
-        "Dean's List Honors, 5 Quarters"
-    ]
-
+    ],
+    "awards": []
 }

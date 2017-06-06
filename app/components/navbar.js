@@ -11,6 +11,15 @@ samermetri.controller("navbar", function($scope) {
         }
     ];
 
+    $scope.headers_right = [
+        {
+            name: "LinkedIn",
+            icon: "linkedin-box",
+            link: "https://www.linkedin.com/in/smetri",
+            target: "_blank"
+        }
+    ];
+
     navbarScope = $scope
-    
+
 });

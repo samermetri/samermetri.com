@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12 col-sm-12">
             <div class="card hovercard">
-                
+
                 <!-- Empty card header
                      The Background color and/or Image can be changed from the css file.
                  -->
@@ -12,22 +12,23 @@
                 <div class="avatar">
                     <img alt="" src="{{ profilePictureURL }}">
                 </div>
-                            
+
 
                 <div class="info">
                     <div class="title">{{ name }}</div>
-                    <div class="desc" ng-repeat="desc in personalDescription">{{desc}}</div> 
+                    <div class="desc" ng-repeat="desc in personalDescription">{{desc}}</div>
                 </div>
 
 
                 <div class="middle">
-                    Some content here
+                    <a class="btn btn-primary" href="/resume" role="button">Resume</a>
                 </div>
 
                 <div class="bottom">
-               
+
+
                 </div>
-            </div>               
+            </div>
         </div>
     </div>
 </div>

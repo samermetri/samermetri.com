@@ -1,171 +1,180 @@
-    <!DOCTYPE html>
-<html >
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <TITLE>Samer Metri</TITLE>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <base href="/" />
 
-<head>
-    <TITLE>Samer Metri</TITLE>
+        <!-- Material Design Icons & Fonts -->
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" type="text/css" href="//cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css" media="all">
+        <link rel="stylesheet" type="text/css" href="content/libraries/css/mdi-prereq.css">
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <base href="/" />
+        <!-- Bootstrap -->
+        <link rel="stylesheet" type="text/css" href="content/libraries/css/bootstrap.min.css">
 
-    <!-- Material Design Icons & Fonts -->
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" type="text/css" href="//cdn.materialdesignicons.com/1.7.22/css/materialdesignicons.min.css">
-    <link rel="stylesheet" type="text/css" href="content/libraries/css/mdi-prereq.css">
+        <!-- Bootstrap Material Design -->
+        <link rel="stylesheet" type="text/css" href="content/libraries/css/bootstrap-material-design.min.css">
+        <link rel="stylesheet" type="text/css" href="content/libraries/css/ripples.min.css">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css" href="content/libraries/css/bootstrap.min.css">
+        <!-- Bootstrap Custom css -->
+        <link rel="stylesheet" type="text/css" href="content/css/navbar.css">
+        <link rel="stylesheet" type="text/css" href="content/css/footer.css">
+        <link rel="stylesheet" type="text/css" href="content/css/panel.css">
+        <link rel="stylesheet" type="text/css" href="content/css/card.css">
+        <!-- <link rel="stylesheet" type="text/css" href="content/css/btn_circles.css"> -->
+        <!-- FavIcon  http://bit.ly/2dcr2mS-->
+        <link rel="icon" href="/content/icons/logo.png">
 
-    <!-- Bootstrap Material Design -->
-    <link rel="stylesheet" type="text/css" href="content/libraries/css/bootstrap-material-design.min.css">
-    <link rel="stylesheet" type="text/css" href="content/libraries/css/ripples.min.css">
+        <!--  Android Chrome -->
+        <meta name="theme-color" content="#3E4551">
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <!-- Google Search -->
+        <meta name="description" content="Samer Metri's Website. Here you can find some information about me and download my resume" />
+        <meta name="keywords" content="samer, metri, samermetri, samermetri@gmail.com, rafik, samer rafik metri, smetri, smetri@uci.edu, uci.edu, sam">
+
+        <!-- Manifest Files -->
+        <link rel="manifest" href="manifest.json">
+        <!-- Search Engine Crawler SEO -->
 
 
-    <!-- Bootstrap Custom Navbar -->
-    <link rel="stylesheet" type="text/css" href="content/css/navbar.css">
-    <link rel="stylesheet" type="text/css" href="content/css/footer.css">
-    <link rel="stylesheet" type="text/css" href="content/css/panel.css">
-    <link rel="stylesheet" type="text/css" href="content/css/card.css">
-    <!-- <link rel="stylesheet" type="text/css" href="content/css/btn_circles.css"> -->
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 
+        <!-- AngularJs -->
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
 
-    <!-- FavIcon  http://bit.ly/2dcr2mS-->
-    <link rel="icon" href="/content/icons/logo.png">
+        <!-- Bootstrap -->
+        <script src="content/libraries/js/bootstrap.min.js"></script>
+        <script src="content/libraries/js/material.min.js"></script>
+        <script src="content/libraries/js/ripples.min.js"></script>
 
+        <!-- Angular Code -->
+        <!-- Application -->
+        <script src="app/app.module.js"></script>
+        <script src="app/app.routes.js"></script>
+        <!-- Components -->
+        <script src="app/components/navbar.js"></script>
+        <script src="app/components/resume.js"></script>
+        <script src="app/components/personalInformation.js"></script>
+        <script src="app/components/employmentInformation.js"></script>
+        <script src="app/components/skillsInformation.js"></script>
+        <script src="app/components/fab.js"></script>
+        <script src="app/components/contactMe.js"></script>
+        <!-- NavBar -->
+        <script src="content/js/navbar.js"></script>
+    </head>
 
-    <!--  Android Chrome -->
-    <meta name="theme-color" content="#3E4551">
-    <meta name="mobile-web-app-capable" content="yes">
-
-    <!-- Google Search -->
-    <meta name="description" content="Samer Metri's Personal Website" />
-    <meta name="keywords" content="samer, metri, samermetri, samermetri@gmail.com, rafik, samer rafik metri">
-
-    <!-- Manifest Files -->
-    <link rel="manifest" href="manifest.json">
-   
-
-    <!-- Search Engine Crawler SEO -->
-
-</head>
-
-<body ng-app="samermetri">
-
-    <!-- Navigation Bar -->
-     <nav class="navbar navbar-default navbar-fixed-top" ng-controller="navbar">
+    <body ng-app="samermetri">
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-default navbar-fixed-top" ng-controller="navbar">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand waves-effect waves-light" href="#">Samer Metri</a>
                 </div>
-
                 <div class="collapse navbar-collapse " id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
                         <li ng-repeat="header in headers" class="waves-effect waves-light {{header.class}}" ><a href="{{header.link}}">{{header.name}}</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li ng-repeat="header in headers_right" class="waves-effect waves-light {{header.class}}" ><a href="{{header.link}}" target="{{header.target}}" class="mdi mdi-{{header.icon}} mdi-18px"></a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-    <!-- Website Content - Loaded using Angular -->
-    <div ng-view></div>
+        <!-- <H1> for Bing and Google SEO -->
+        <h1 hidden>Samer Metri's Website.</h1>
+        <!-- Website Content - Loaded using Angular -->
+        <div ng-view></div>
 
-    
-    <!-- Footer -->
-    <footer class="footer footer-default"  ng-controller="personalInformation"> 
-      <div class="container text-center">
-        <h3 class=" footer-header" >Contact Me</h3>
-        <a class="mdi mdi-email" href="mailto:{{email}}"> {{email}}</a>
-      </div>
-    </footer>
-
-
-    <!-- JQuery -->
-    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
-
-    <!-- AngularJs -->
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-route.min.js"></script>
-
-    <!-- Bootstrap -->
-    <script src="content/libraries/js/bootstrap.min.js"></script>
-    <script src="content/libraries/js/material.min.js"></script>
-    <script src="content/libraries/js/ripples.min.js"></script>
-
-
-    <!-- Angular Code -->
-    <!-- Application -->
-    <script src="app/app.module.js"></script>
-    <script src="app/app.routes.js"></script>
-
-    <!-- Components -->
-    <script src="app/components/navbar.js"></script>
-    <script src="app/components/resume.js"></script>
-    <script src="app/components/personalInformation.js"></script>
-    <script src="app/components/employmentInformation.js"></script>
-    <script src="app/components/skillsInformation.js"></script>
-    <script src="app/components/fab.js"></script>
-    
-    <!-- NavBar -->
-    <script src="content/js/navbar.js"></script>
+        <!-- Footer -->
+        <footer class="footer footer-default"  ng-controller="personalInformation">
+            <div class="container text-center">
+                <h3 class=" footer-header" >Contact Me</h3>
+                <a class="mdi mdi-email" href="mailto:{{email}}">{{email}}</a>
+                <!-- <a class="mdi mdi-email "  data-toggle="modal" data-target="#myModal"> {{email}}</a> -->
+            </div>
+        </footer>
+        <!-- Contact Us Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Contact Me</h4>
+                    </div>
+                    <div class="modal-body">
+                        <contact-me></contact-me>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 
-    <!-- Google Search Results -->
 
- <!-- Google Search Results -->
-    <script type="application/ld+json">
-        {
-          "@context": "http://schema.org",
-          "@type": "WebSite",
-          "url": "http://samermetri.com",
-          "copyrightYear": "2016",
-          "name": "Samer Metri",
-          "alternateName": "SamerMetri.com",
-          "description": "Samer Metri's Personal Website",
-          "creator": {
-              "@context": "http://schema.org",
-              "@type": "Person",
-              "name": "Samer Metri",
-              "givenName": "Samer",
-              "familyName": "Metri",
-              "image" : "content/files/profilepic.jpg",
-              "url": "http://samermetri.com",
-              "gender": "male",
-              "email": "samermetri@gmail.com",
-              "sameAs": [
-                "https://www.facebook.com/samermetri",
-                "https://www.instagram.com/samermetri/",
-                "https://www.linkedin.com/in/samer-metri-a85642118",
-                "https://plus.google.com/u/0/110972891061876363044"
-              ]
-            }   
-        }
-    </script>
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Person",
-      "name": "Samer Metri",
-      "givenName": "Samer",
-      "familyName": "Metri",
-      "image" : "content/files/profilepic.jpg",
-      "url": "http://samermetri.com",
-      "gender": "male",
-      "email": "samermetri@gmail.com",
-      "sameAs": [
-        "https://www.facebook.com/samermetri",
-        "https://www.instagram.com/samermetri/",
-        "https://www.linkedin.com/in/samer-metri-a85642118",
-        "https://plus.google.com/u/0/110972891061876363044"
-      ]
-    }
-    </script>
-</body>
+        <!-- Google Search Results -->
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "url": "http://samermetri.com",
+                "copyrightYear": "2017",
+                "name": "Samer Metri",
+                "alternateName": "Samer Metri",
+                "description": "Samer Metri's Website. Here you can find some information about me and download my resume",
+                "creator":
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Person",
+                    "name": "Samer Metri",
+                    "givenName": "Samer",
+                    "familyName": "Metri",
+                    "image" : "content/files/profilepic.jpg",
+                    "url": "http://samermetri.com",
+                    "gender": "male",
+                    "email": "samermetri@gmail.com",
+                    "sameAs": [
+                        "https://www.facebook.com/samermetri",
+                        "https://www.instagram.com/samermetri/",
+                        "https://www.linkedin.com/in/samer-metri-a85642118",
+                        "https://plus.google.com/u/0/110972891061876363044"
+                        ]
+                }
+            }
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Samer Metri",
+                "givenName": "Samer",
+                "familyName": "Metri",
+                "image" : "content/files/profilepic.jpg",
+                "url": "http://samermetri.com",
+                "gender": "male",
+                "email": "samermetri@gmail.com",
+                "sameAs": [
+                    "https://www.facebook.com/samermetri",
+                    "https://www.instagram.com/samermetri/",
+                    "https://www.linkedin.com/in/samer-metri-a85642118",
+                    "https://plus.google.com/u/0/110972891061876363044"
+                ]
+            }
+        </script>
+    </body>
 </html>
