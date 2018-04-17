@@ -3,8 +3,6 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Samer Metri</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<link rel="stylesheet" href="css/bootstrap.css">
@@ -20,7 +18,7 @@
 						<div class="card testimonial-card z-depth-4" style="">
 							<div class="card-up stylish-color-dark">
 							</div>
-							<div class="avatar mx-auto white z-depth-2"><img src="http://www.samermetri.com/content/files/profilepic.jpg"
+							<div class="avatar mx-auto white z-depth-2"><img src="img/profilepic.jpg"
 							class="rounded-circle" alt="woman avatar"/></div>
 							<div class="card-body">
 								<h4 class="card-title">Samer Metri</h4>
@@ -142,101 +140,151 @@
 			<script src="js/popper.min.js"></script>
 			<script>
 			function fillResearch(experience) {
-			let research_str = "";
-			for (i = 0; i < experience.length; i++) {
-			let duties = "";
-			let exp = experience[i];
-			let spacer = (i === 0) ? '' : 'mt-2';
-			for (d = 0; d < exp.duties.length; d++) {
-			duties += "<li>" + exp.duties[d] + "</li>"
-			}
-			research_str += `<div class="card ${spacer}">
-												<div class="card-header stylish-color-dark white-text">
-												<div>
-													${exp.title} at ${exp.employer}
-													<small class="text-muted">${exp.shorttime}</small>
-												</div>
-											</div>
-												<div class="card-body">
-														<div class="card-text">
-																<ul>
-																	${duties}
-																</ul>
-														</div>
-												</div>
-										</div>`;
-			}
-			var modal = $("#research-modal");
-			modal.find('.modal-body').html(research_str);
+                let research_str = "";
+                for (i = 0; i < experience.length; i++) {
+                    let duties = "";
+                    let exp = experience[i];
+                    let spacer = (i === 0) ? '' : 'mt-2';
+                    for (d = 0; d < exp.duties.length; d++) {
+                        duties += "<li>" + exp.duties[d] + "</li>"
+                    }
+                    research_str += `<div class="card ${spacer}">
+                                                        <div class="card-header stylish-color-dark white-text">
+                                                        <div>
+                                                            ${exp.title} at ${exp.employer}
+                                                            <small class="text-muted">${exp.shorttime}</small>
+                                                        </div>
+                                                    </div>
+                                                        <div class="card-body">
+                                                                <div class="card-text">
+                                                                        <ul>
+                                                                            ${duties}
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>`;
+                }
+                var modal = $("#research-modal");
+                modal.find('.modal-body').html(research_str);
 			}
 			function fillWork(experience) {
-			let work_str = "";
-			for (i = 0; i < experience.length; i++) {
-			let duties = "";
-			let exp = experience[i];
-			let spacer = (i === 0) ? '' : 'mt-2';
-			for (d = 0; d < exp.duties.length; d++) {
-			duties += "<li>" + exp.duties[d] + "</li>"
-			}
-			work_str += `<div class="card ${spacer}">
-												<div class="card-header stylish-color-dark white-text">
-												<div>
-													${exp.title} at ${exp.employer}
-													<small class="text-muted">${exp.shorttime}</small>
-												</div>
-											</div>
-												<div class="card-body">
-														<div class="card-text">
-																<ul>
-																	${duties}
-																</ul>
-														</div>
-												</div>
-										</div>`;
-			}
-			var modal = $("#work-modal");
-			modal.find('.modal-body').html(work_str);
+                let work_str = "";
+                for (i = 0; i < experience.length; i++) {
+                    let duties = "";
+                    let exp = experience[i];
+                    let spacer = (i === 0) ? '' : 'mt-2';
+                    for (d = 0; d < exp.duties.length; d++) {
+                        duties += "<li>" + exp.duties[d] + "</li>"
+                    }
+                    work_str += `<div class="card ${spacer}">
+                                                        <div class="card-header stylish-color-dark white-text">
+                                                        <div>
+                                                            ${exp.title} at ${exp.employer}
+                                                            <small class="text-muted">${exp.shorttime}</small>
+                                                        </div>
+                                                    </div>
+                                                        <div class="card-body">
+                                                                <div class="card-text">
+                                                                        <ul>
+                                                                            ${duties}
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>`;
+                }
+                var modal = $("#work-modal");
+                modal.find('.modal-body').html(work_str);
 			}
 			function fillInvolvement(experience) {
-			let involvement_str = "";
-			for (i = 0; i < experience.length; i++) {
-			let duties = "";
-			let exp = experience[i];
-			let spacer = (i === 0) ? '' : 'mt-2';
-			for (d = 0; d < exp.duties.length; d++) {
-			duties += "<li>" + exp.duties[d] + "</li>"
-			}
-			involvement_str += `<div class="card ${spacer}">
-												<div class="card-header stylish-color-dark white-text">
-												<div>
-													${exp.title} at ${exp.employer}
-													<small class="text-muted">${exp.shorttime}</small>
-												</div>
-											</div>
-												<div class="card-body">
-														<div class="card-text">
-																<ul>
-																	${duties}
-																</ul>
-														</div>
-												</div>
-										</div>`;
-			}
-			var modal = $("#involvement-modal");
-			modal.find('.modal-body').html(involvement_str);
+                let involvement_str = "";
+                for (i = 0; i < experience.length; i++) {
+                    let duties = "";
+                    let exp = experience[i];
+                    let spacer = (i === 0) ? '' : 'mt-2';
+                    for (d = 0; d < exp.duties.length; d++) {
+                        duties += "<li>" + exp.duties[d] + "</li>"
+                    }
+                    involvement_str += `<div class="card ${spacer}">
+                                                        <div class="card-header stylish-color-dark white-text">
+                                                        <div>
+                                                            ${exp.title} at ${exp.employer}
+                                                            <small class="text-muted">${exp.shorttime}</small>
+                                                        </div>
+                                                    </div>
+                                                        <div class="card-body">
+                                                                <div class="card-text">
+                                                                        <ul>
+                                                                            ${duties}
+                                                                        </ul>
+                                                                </div>
+                                                        </div>
+                                                </div>`;
+                }
+                var modal = $("#involvement-modal");
+                modal.find('.modal-body').html(involvement_str);
 			}
 			$.getJSON("files/resume.json", function (json) {
-			fillResearch(json["research_experience"]);
-			fillWork(json["work_experience"]);
-			fillInvolvement(json["involvement"]);
+                fillResearch(json["research_experience"]);
+                fillWork(json["work_experience"]);
+                fillInvolvement(json["involvement"]);
 			});
 			function downloadResume(){
-			var link = document.createElement('a');
-			link.href = "files/resume.pdf";
-			link.download = 'SamerMetri_Resume.pdf';
-			link.dispatchEvent(new MouseEvent('click'));
-			//link.click();
+                var link = document.createElement('a');
+                link.href = "files/resume.pdf";
+                link.download = 'SamerMetri_Resume.pdf';
+                link.dispatchEvent(new MouseEvent('click'));
+                //link.click();
 			}
 			</script>
+
+			<!-- Google Search Results -->
+			<script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "WebSite",
+                "url": "http://samermetri.com",
+                "copyrightYear": "2017",
+                "name": "Samer Metri",
+                "alternateName": "Samer Metri",
+                "description": "Samer Metri's Website. Here you can find some information about me and download my resume",
+                "creator":
+                {
+                    "@context": "http://schema.org",
+                    "@type": "Person",
+                    "name": "Samer Metri",
+                    "givenName": "Samer",
+                    "familyName": "Metri",
+                    "image" : "img/profilepic.jpg",
+                    "url": "http://samermetri.com",
+                    "gender": "male",
+                    "email": "samermetri@gmail.com",
+                    "sameAs": [
+                        "https://www.facebook.com/samermetri",
+                        "https://www.instagram.com/samermetri/",
+                        "https://www.linkedin.com/in/samer-metri-a85642118",
+                        "https://plus.google.com/u/0/110972891061876363044"
+                        ]
+                }
+            }
+        </script>
+			<script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Person",
+                "name": "Samer Metri",
+                "givenName": "Samer",
+                "familyName": "Metri",
+                "image" : "<img src="" alt="">/profilepic.jpg",
+                "url": "http://samermetri.com",
+                "gender": "male",
+                "email": "samermetri@gmail.com",
+                "sameAs": [
+                    "https://www.facebook.com/samermetri",
+                    "https://www.instagram.com/samermetri/",
+                    "https://www.linkedin.com/in/samer-metri-a85642118",
+                    "https://plus.google.com/u/0/110972891061876363044"
+                ]
+            }
+        </script>
 		</body>
 	</html>
