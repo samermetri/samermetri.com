@@ -21,8 +21,55 @@
 							<div class="avatar mx-auto white z-depth-2"><img src="img/profilepic.jpg"
 							class="rounded-circle" alt="woman avatar"/></div>
 							<div class="card-body">
-								<h4 class="card-title">Samer Metri</h4>
-								<p class="small grey-text">Pre-Med Student at UC Irvine</p>
+								<h4 class="card-title m-0">Samer Metri</h4>
+								<div id="short_desc" class="small grey-text">
+                                    <div class="preloader-wrapper small active">
+                                        <div class="spinner-layer spinner-blue">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <div class="spinner-layer spinner-red">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <div class="spinner-layer spinner-yellow">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                        <div class="spinner-layer spinner-green">
+                                            <div class="circle-clipper left">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="gap-patch">
+                                                <div class="circle"></div>
+                                            </div>
+                                            <div class="circle-clipper right">
+                                                <div class="circle"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 								<hr/>
 								<div class="row">
 									<!--Research-->
@@ -227,6 +274,7 @@
                 fillResearch(json["research_experience"]);
                 fillWork(json["work_experience"]);
                 fillInvolvement(json["involvement"]);
+                document.getElementById("short_desc").innerHTML = json["short_desc"];
 			});
 			function downloadResume(){
                 var link = document.createElement('a');
