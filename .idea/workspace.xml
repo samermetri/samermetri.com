@@ -24,8 +24,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="285" column="67" selection-start-line="285" selection-start-column="67" selection-end-line="285" selection-end-column="67" />
+            <state relative-caret-position="529">
+              <caret line="252" column="9" lean-forward="true" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
               <folding>
                 <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -119,7 +119,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="width" value="2430" />
     <option name="height" value="1776" />
@@ -213,7 +213,7 @@
       <workItem from="1523947911721" duration="692000" />
       <workItem from="1524114478378" duration="3137000" />
       <workItem from="1524119736007" duration="160000" />
-      <workItem from="1524174908228" duration="2459000" />
+      <workItem from="1524174908228" duration="2629000" />
     </task>
     <task id="LOCAL-00001" summary="Added Google SEO Results, Localized profile pic">
       <created>1523948489470</created>
@@ -278,11 +278,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524177326309</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fixed JS warnings">
+      <created>1524177540176</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1524177540176</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12291000" />
+    <option name="totallyTimeSpent" value="12461000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -294,13 +301,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1215" height="888" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12406328" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10899781" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3273196" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32694763" />
       <window_info anchor="bottom" id="Inspection Results" weight="0.3298969" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294271" />
@@ -735,8 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="285" column="67" selection-start-line="285" selection-start-column="67" selection-end-line="285" selection-end-column="67" />
+        <state relative-caret-position="529">
+          <caret line="252" column="9" lean-forward="true" selection-start-line="252" selection-start-column="9" selection-end-line="252" selection-end-column="9" />
           <folding>
             <element signature="n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
