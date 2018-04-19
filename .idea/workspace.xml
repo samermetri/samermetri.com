@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f003d65a-3a64-4ae5-9d18-873feeaa42fb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/profilepic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -22,15 +20,12 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+            <state relative-caret-position="506">
+              <caret line="321" column="38" lean-forward="true" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
               <folding>
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#4875#4882#1" expanded="true" />
                 <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#5453#5460#1" expanded="true" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="e#6056#6063#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -39,7 +34,7 @@
       <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="12949">
               <caret line="563" selection-start-line="563" selection-end-line="563" selection-end-column="27" />
             </state>
           </provider>
@@ -48,8 +43,8 @@
       <file leaf-file-name="resume.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/files/resume.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+            <state relative-caret-position="3818">
+              <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -72,6 +67,8 @@
       <find>Involvement</find>
       <find>color</find>
       <find>@media</find>
+      <find>re-Med Student at UC Ir</find>
+      <find>card-tit</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -95,11 +92,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="78" />
-    <option name="width" value="2696" />
-    <option name="height" value="1624" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-10" />
+    <option name="width" value="1678" />
+    <option name="height" value="1776" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -156,6 +152,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\samer\WebstormProjects\Git\samermetri.com\files" />
       <recent name="C:\Users\samer\WebstormProjects\Git\samermetri.com\img" />
       <recent name="C:\Users\samer\WebstormProjects\samermetri.com\files" />
       <recent name="C:\Users\samer\WebstormProjects\samermetri.com\img" />
@@ -185,21 +182,38 @@
       <updated>1523933299933</updated>
       <workItem from="1523933301243" duration="4888000" />
       <workItem from="1523938449795" duration="224000" />
-      <workItem from="1523947911721" duration="516000" />
+      <workItem from="1523947911721" duration="692000" />
+      <workItem from="1524114478378" duration="3137000" />
+      <workItem from="1524119736007" duration="160000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Google SEO Results, Localized profile pic">
+      <created>1523948489470</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523948489470</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated Resume">
+      <created>1524116863962</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1524116863962</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5628000" />
+    <option name="totallyTimeSpent" value="9101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
+    <frame x="-5" y="0" width="839" height="888" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14996342" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30060607" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3294271" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.3285151" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3294271" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -208,11 +222,11 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,18 +245,72 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Google SEO Results, Localized profile pic" />
+    <MESSAGE value="Updated Resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Resume" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6348">
+          <caret line="276" column="18" lean-forward="true" selection-start-line="276" selection-start-column="18" selection-end-line="276" selection-end-column="18" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12949">
+          <caret line="563" selection-start-line="563" selection-end-line="563" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/resume.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3818">
+          <caret line="166" column="35" lean-forward="true" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6325">
+          <caret line="275" column="38" lean-forward="true" selection-start-line="275" selection-start-column="38" selection-end-line="275" selection-end-column="38" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12949">
+          <caret line="563" selection-start-line="563" selection-end-line="563" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/files/resume.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1840">
+          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4875#4882#1" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5453#5460#1" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6056#6063#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -267,11 +335,8 @@
           <caret line="64" column="34" lean-forward="true" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4875#4882#1" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5453#5460#1" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6056#6063#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -290,31 +355,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files/resume.json">
+    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="80" column="28" selection-start-line="80" selection-start-column="28" selection-end-line="80" selection-end-column="28" />
+        <state relative-caret-position="12949">
+          <caret line="563" selection-start-line="563" selection-end-line="563" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/files/resume.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="563" selection-start-line="563" selection-end-line="563" selection-end-column="27" />
+        <state relative-caret-position="3818">
+          <caret line="166" column="35" selection-start-line="166" selection-start-column="35" selection-end-line="166" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="276" column="30" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+        <state relative-caret-position="506">
+          <caret line="321" column="38" lean-forward="true" selection-start-line="321" selection-start-column="38" selection-end-line="321" selection-end-column="38" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#4875#4882#1" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#5453#5460#1" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6056#6063#1" expanded="true" />
           </folding>
         </state>
       </provider>
