@@ -280,7 +280,7 @@
 					let icon = icons[i]
 					html_str += `<a href="${icon.url}"><i class="mx-2 fab fa-${icon.css} fa-lg grey-text"></i></a>`;
 				}
-				document.getElementById("ref_icons").innerHTML = json["html_str"];
+				document.getElementById("ref_icons").innerHTML = html_str;
 			}
 			$.getJSON("files/resume.json", function (json) {
                 fillResearch(json["research_experience"]);
