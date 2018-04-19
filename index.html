@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--suppress JSUnresolvedVariable -->
 <html lang="en">
 	<head>
         <title>Samer Metri</title>
@@ -239,7 +240,7 @@
                                                         </div>
                                                 </div>`;
                 }
-                var modal = $("#research-modal");
+                const modal = $("#research-modal");
                 modal.find('.modal-body').html(research_str);
 			}
 			function fillWork(experience) {
@@ -267,7 +268,7 @@
                                                         </div>
                                                 </div>`;
                 }
-                var modal = $("#work-modal");
+                const modal = $("#work-modal");
                 modal.find('.modal-body').html(work_str);
 			}
 			function fillInvolvement(experience) {
@@ -295,13 +296,13 @@
                                                         </div>
                                                 </div>`;
                 }
-                var modal = $("#involvement-modal");
+                const modal = $("#involvement-modal");
                 modal.find('.modal-body').html(involvement_str);
 			}
 			function fillIcons(icons){
 				let html_str = "";
 				for (i = 0; i < icons.length; i++) {
-					let icon = icons[i]
+					let icon = icons[i];
 					html_str += `<a href="${icon.url}" target="_blank"><i class="mx-2 fab fa-${icon.css} fa-lg grey-text"></i></a>`;
 				}
 				document.getElementById("ref_icons").innerHTML = html_str;
@@ -310,11 +311,11 @@
                 fillResearch(json["research_experience"]);
                 fillWork(json["work_experience"]);
                 fillInvolvement(json["involvement"]);
-                fillIcons(json["icons"])
+                fillIcons(json["icons"]);
                 document.getElementById("short_desc").innerHTML = json["short_desc"];
 			});
 			function downloadResume(){
-                var link = document.createElement('a');
+                const link = document.createElement('a');
                 link.href = "files/resume.pdf";
                 link.download = 'SamerMetri_Resume.pdf';
                 link.dispatchEvent(new MouseEvent('click'));
