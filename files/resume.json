@@ -9,6 +9,16 @@
         "GPA": "3.8",
         "majorGPA": "3.86"
     },
+    "icons":[
+        {
+           "css": "facebook-square",
+           "url": "https://www.facebook.com/samermetri" 
+        },
+        {
+           "css": "linkedin",
+           "url": "https://www.linkedin.com/in/smetri/" 
+        }
+    ],
     "research_experience": [
       {
         "employer": "Seiler Lab, Sue and Bill Gross Stem Cell Research Center ",
