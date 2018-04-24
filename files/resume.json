@@ -74,8 +74,8 @@
         {
             "employer": "UC Irvine, Office of Information and Technology",
             "title": "Senior Consultant",
-            "time": "October 2015 - Present",
-            "shorttime": "Oct 15 - Present",
+            "time": "October 2016 - Present",
+            "shorttime": "Oct 16 - Present",
             "duties": [
               "Lead programmer tasked with creating and maintaining one of the help desk’s most used tools residing on Slack",
               "Supervise and manage day-to-day tasks of student employees, including hiring and scheduling of student staff.",
@@ -89,8 +89,8 @@
       {
         "employer": "UC Irvine, Office of Information and Technology",
         "title": "Consultant",
-        "time": "January 2014 - October 2015",
-        "shorttime": "Jan 14 - Oct 15",
+        "time": "January 2014 - October 2016",
+        "shorttime": "Jan 14 - Oct 16",
         "duties": [
           "Service and support technical networking issues for residents across on-campus housing communities.",
           "Troubleshoot campus cable TV and the Application, Network, Data and Physical layers of the OSI Networking model. ",
@@ -120,7 +120,7 @@
         "time": "February 2018 - Present",
         "shorttime": "Feb 18 - Present",
         "duties": [
-          ""
+          "Shadowing Dr. Jen has given me an insight of what a typical shift in the Emergency Room is like. There, I was able to observe his bed-side manner and his initial exam of patients as they arrived at the Emergency Room. I was then able to look at the tests he ordered and ask question behind the purpose of why the tests were run, as well as inquire about the results. My shadowing experience showed me that a physician’s job is not just to see patients, but is rather dominated by ordering and reading tests, and filling out paperwork."
         ],
         "icon": "content/img/uci_icon.png",
         "url": "http://www.ucirvinehealth.org/"
@@ -131,8 +131,7 @@
         "time": "February 2017 - Present",
         "shorttime": "Feb 17 - Present",
         "duties": [
-          "Assisted with patient discharged from and transfer in post anesthesia recovery units.",
-          "Assisted trauma technicians and nurses in the Emergency Department and helped with restocking supplies and cleaning rooms"
+          "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking. As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses. This experience showed me the responsibility a physician holds during an emergency and allowed me to gain comfort in such situations."
         ],
         "icon": "content/img/uci_icon.png",
         "url": "http://www.ucirvinehealth.org/"
@@ -143,7 +142,7 @@
         "time": "December 2017 - Present",
         "shorttime": "Dec 17 - Present",
         "duties": [
-          ""
+          "Volunteering at Lestonnac Free Clinic has taught me to recognize the need of medical attention by the underserved. There, I gained experience in interacting with patients, taking their vitals, such as blood pressure, pulse, respiration rates, blood glucose and hemoglobin levels, as well as run simple tests such as urine analysis and pregnancy tests. I also learned how to use an electronic medical record to input vitals and search for lab results."
         ],
         "icon": "content/img/uci_icon.png",
         "url": "https://lestonnacfreeclinic.org/"
@@ -192,7 +191,8 @@
                 "Cryostat sectioning",
                 "Cell culture",
                 "Mice injections",
-                "Basic mice surgical procedures"
+                "Basic mice surgical procedures",
+                "Antibody Alliquoting and Titration"
             ]
         },
         {
