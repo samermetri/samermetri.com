@@ -1,230 +1,230 @@
 {
-    "name": "Samer Metri",
-    "short_desc": "<p class='m-0'>Pre-Med Student at University of California, Irvine</p><p class='m-0'>Senior Consultant • UC Irvine Office of Information and Technology</p>",
-    "education": {
-        "school": "University of California, Irvine",
-        "degree": "Bachelor of Science in Biological Sciences",
-        "graduation": "June 2018",
-        "specialization": "Genetics",
-        "GPA": "3.8",
-        "majorGPA": "3.86"
+  "name": "Samer Metri",
+  "short_desc": "<p class='m-0'>Pre-Med Student at University of California, Irvine</p><p class='m-0'>Senior Consultant • UC Irvine Office of Information and Technology</p>",
+  "education": {
+    "school": "University of California, Irvine",
+    "degree": "Bachelor of Science in Biological Sciences",
+    "graduation": "June 2018",
+    "specialization": "Genetics",
+    "GPA": "3.8",
+    "majorGPA": "3.86"
+  },
+  "icons": [
+    {
+      "css": "facebook-square",
+      "url": "https://www.facebook.com/samermetri"
     },
-    "icons":[
-        {
-           "css": "facebook-square",
-           "url": "https://www.facebook.com/samermetri" 
-        },
-        {
-           "css": "linkedin",
-           "url": "https://www.linkedin.com/in/smetri/" 
-        }
-    ],
-    "research_experience": [
-      {
-        "employer": "Seiler Lab, Sue and Bill Gross Stem Cell Research Center ",
-        "title": "Undergraduate Researcher",
-        "time": "January 2017 - Present",
-        "shorttime": "Jan 17 - Present",
-        "duties": [
-          "Performed protein extraction and western blot analysis on human eye tissue and human embryonic stem cell neutrospheres to analyze and compare protein expression depending on the age of the tissue",
-          "Performed immunohistochemistry staining of eye sections post retinal progenitor cell transplantation into humanized rats to analyze the makeup and localization of cell markers"
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://sites.uci.edu/seilerlab/"
-      },
-      {
-            "employer": "Boiko Lab, Sue and Bill Gross Stem Cell Research Center ",
-            "title": "Undergraduate Researcher",
-            "time": "October 2016 - June 2017",
-            "shorttime": "Oct 16 - Jun 17",
-            "duties": [
-                "Collected, analyzed and imaged mouse squamous cell carcinoma tumors to determine the clonal contribution of stem-like cells using a rainbow reporter construct and fluorescent microscopy",
-                "Performed cryostat sectioning and immunohistochemistry staining to verify the presence of proteins and gene markers and consulted with a pathologist to correctly identify different types of squamous cell carcinoma tumors",
-                "Enhanced and edited fluorescence microscopy images to create publication quality figures"
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://www.uci.edu/"
-        },
-        {
-            "employer": "Anticancer, Inc.",
-            "title": "Research Intern",
-            "time": "May 2016 - September 2016",
-            "shorttime": "May 16 - Sept 16",
-            "duties": [
-                "Analyzed the effect of vitamin C on the rate of tumor metastasis following invasive surgery after mice injection with human tumor cells and compared it with a control group to quantify the results",
-                "Cultured and prepared human cancer cells to prepare for mice injection and performed autopsies on surgical fatalities to examine the cause of death and minimize the rate of future surgical complications"
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://www.anticancer.com/"
-        },
-        {
-            "employer": "Esser-Khan Laboratory",
-            "title": "Undergraduate Research Assistant",
-            "time": "October 2015 - June 2016",
-            "shorttime": "Oct 15 - Jun 16",
-            "duties": [
-                "Conducted chemical reactions and imaged the results in order to determine the best concentration and flow rate needed in order to achieve optimal growth and etching in Polydimethylsiloxane polymers",
-                "Imaged and measured polymers before and after experimental procedures to analyze the results and fine tune future experimental runs to obtain more accurate and precise data"
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://chem.uci.edu/~esserkahngroup/"
-        }
-    ],
-    "work_experience": [
-        {
-            "employer": "UC Irvine, Office of Information and Technology",
-            "title": "Senior Consultant",
-            "time": "October 2016 - Present",
-            "shorttime": "Oct 16 - Present",
-            "duties": [
-              "Lead programmer tasked with creating and maintaining one of the help desk’s most used tools residing on Slack",
-              "Supervise and manage day-to-day tasks of student employees, including hiring and scheduling of student staff.",
-              "Provide first level support for clients and handle second level customer support escalation when required.",
-              "Arrange training materials and internal documentation to train both student and full time staff in computer networking.",
-              "Organize and improve employee policy using management tools such as Confluence/Atlassian, Slack and Trello."
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://oit.uci.edu/"
-        },
-      {
-        "employer": "UC Irvine, Office of Information and Technology",
-        "title": "Consultant",
-        "time": "January 2014 - October 2016",
-        "shorttime": "Jan 14 - Oct 16",
-        "duties": [
-          "Service and support technical networking issues for residents across on-campus housing communities.",
-          "Troubleshoot campus cable TV and the Application, Network, Data and Physical layers of the OSI Networking model. ",
-          "Troubleshoot home routers, various networking software and Windows and Mac operating systems with Wireshark.",
-          "Coordinate with various campus organizations to enforce and maintain campus network policy and infrastructure. ",
-          "Collaborate with campus network engineers and colleagues in troubleshooting procedures, as well as maintenance, repair and installation of core switching and routing equipment."
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://oit.uci.edu/"
-      },
-        {
-            "employer": "Taza Systems",
-            "title": "Software Developer",
-            "time": "May 2014 - September 2014",
-            "shorttime": "May 2014 - Sept 2014",
-            "duties": [
-                "Developed and updated mobile applications used by hundreds of customers on a daily basis for the automation of real estate inspection portfolios."
-            ],
-            "icon": "content/img/uci_icon.png",
-            "url": "http://tazasystems.com/"
-        }
-    ],
-    "involvement": [
-      {
-        "employer": "UC Irvine Medical Center",
-        "title": "Shadowing Dr. Maxwell Jen",
-        "time": "February 2018 - Present",
-        "shorttime": "Feb 18 - Present",
-        "duties": [
-          "Shadowing Dr. Jen has given me an insight of what a typical shift in the Emergency Room is like. There, I was able to observe his bed-side manner and his initial exam of patients as they arrived at the Emergency Room. I was then able to look at the tests he ordered and ask question behind the purpose of why the tests were run, as well as inquire about the results. My shadowing experience showed me that a physician’s job is not just to see patients, but is rather dominated by ordering and reading tests, and filling out paperwork."
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://www.ucirvinehealth.org/"
-      },
-      {
-        "employer": "University of California, Irvine Medical Center",
-        "title": "Hospital Volunteer",
-        "time": "February 2017 - Present",
-        "shorttime": "Feb 17 - Present",
-        "duties": [
-          "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking. As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses. This experience showed me the responsibility a physician holds during an emergency and allowed me to gain comfort in such situations."
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://www.ucirvinehealth.org/"
-      },
-      {
-        "employer": "Lestonnac Free Clinic",
-        "title": "Student Volunteer",
-        "time": "December 2017 - Present",
-        "shorttime": "Dec 17 - Present",
-        "duties": [
-          "Volunteering at Lestonnac Free Clinic has taught me to recognize the need of medical attention by the underserved. There, I gained experience in interacting with patients, taking their vitals, such as blood pressure, pulse, respiration rates, blood glucose and hemoglobin levels, as well as run simple tests such as urine analysis and pregnancy tests. I also learned how to use an electronic medical record to input vitals and search for lab results."
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "https://lestonnacfreeclinic.org/"
-      },
-      {
-        "employer": "Pre-Student Osteopathic Medical Association",
-        "title": "Active Member",
-        "time": "October 2017 - Present",
-        "shorttime": "Oct 17 - Present",
-        "duties": [
-          ""
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": ""
-      },
-      {
-        "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
-        "title": "Senior Research Project",
-        "time": "January 2018 - Present",
-        "shorttime": "Jab 18 - Present",
-        "duties": [
-          ""
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://www.ucirvinehealth.org/"
-      },
-      {
-        "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
-        "title": "Senior Research Project",
-        "time": "January 2017 - June 2017",
-        "shorttime": "Jab 17 - Jun 17",
-        "duties": [
-          ""
-        ],
-        "icon": "content/img/uci_icon.png",
-        "url": "http://www.ucirvinehealth.org/"
-      }
-    ],
-    "skills": [
-        {
-            "title": "Laboratory Skills",
-            "details": [
-                "Zeiss Fluorescence Microscope",
-                "Nikon Ti-E Inverted Microscope",
-                "Image Acquisition Pro",
-                "Cryostat sectioning",
-                "Cell culture",
-                "Mice injections",
-                "Basic mice surgical procedures",
-                "Antibody Alliquoting and Titration"
-            ]
-        },
-        {
-            "title": "Programming Skills",
-            "details": [
-                "R",
-                "Python",
-                "JavaScript",
-                "C-Sharp",
-                "Visual Basic",
-                "HTML",
-                "CSS"
-            ]
-        },
-        {
-            "title": "Technical Skills",
-            "details": [
-                "Microsoft Excel",
-                "Image J",
-                "Adobe Photoshop",
-                "Adobe Illustrator"
-            ]
-        },
-        {
-            "title": "Operating Systems",
-            "details": [
-                "Windows",
-                "Mac OS X",
-                "iOS",
-                "Android"
-            ]
-        }
-    ],
-    "awards": []
+    {
+      "css": "linkedin",
+      "url": "https://www.linkedin.com/in/smetri/"
+    }
+  ],
+  "research_experience": [
+    {
+      "employer": "Seiler Lab, Sue and Bill Gross Stem Cell Research Center ",
+      "title": "Undergraduate Researcher",
+      "time": "January 2017 - Present",
+      "shorttime": "Jan 17 - Present",
+      "duties": [
+        "Performed protein extraction and western blot analysis on human eye tissue and human embryonic stem cell neutrospheres to analyze and compare protein expression depending on the age of the tissue",
+        "Performed immunohistochemistry staining of eye sections post retinal progenitor cell transplantation into humanized rats to analyze the makeup and localization of cell markers"
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://sites.uci.edu/seilerlab/"
+    },
+    {
+      "employer": "Boiko Lab, Sue and Bill Gross Stem Cell Research Center ",
+      "title": "Undergraduate Researcher",
+      "time": "October 2016 - June 2017",
+      "shorttime": "Oct 16 - Jun 17",
+      "duties": [
+        "Collected, analyzed and imaged mouse squamous cell carcinoma tumors to determine the clonal contribution of stem-like cells using a rainbow reporter construct and fluorescent microscopy",
+        "Performed cryostat sectioning and immunohistochemistry staining to verify the presence of proteins and gene markers and consulted with a pathologist to correctly identify different types of squamous cell carcinoma tumors",
+        "Enhanced and edited fluorescence microscopy images to create publication quality figures"
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.uci.edu/"
+    },
+    {
+      "employer": "Anticancer, Inc.",
+      "title": "Research Intern",
+      "time": "May 2016 - September 2016",
+      "shorttime": "May 16 - Sept 16",
+      "duties": [
+        "Analyzed the effect of vitamin C on the rate of tumor metastasis following invasive surgery after mice injection with human tumor cells and compared it with a control group to quantify the results",
+        "Cultured and prepared human cancer cells to prepare for mice injection and performed autopsies on surgical fatalities to examine the cause of death and minimize the rate of future surgical complications"
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.anticancer.com/"
+    },
+    {
+      "employer": "Esser-Khan Laboratory",
+      "title": "Undergraduate Research Assistant",
+      "time": "October 2015 - June 2016",
+      "shorttime": "Oct 15 - Jun 16",
+      "duties": [
+        "Conducted chemical reactions and imaged the results in order to determine the best concentration and flow rate needed in order to achieve optimal growth and etching in Polydimethylsiloxane polymers",
+        "Imaged and measured polymers before and after experimental procedures to analyze the results and fine tune future experimental runs to obtain more accurate and precise data"
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://chem.uci.edu/~esserkahngroup/"
+    }
+  ],
+  "work_experience": [
+    {
+      "employer": "UC Irvine, Office of Information and Technology",
+      "title": "Senior Consultant",
+      "time": "October 2016 - Present",
+      "shorttime": "Oct 16 - Present",
+      "duties": [
+        "Lead programmer tasked with creating and maintaining one of the help desk’s most used tools residing on Slack",
+        "Supervise and manage day-to-day tasks of student employees, including hiring and scheduling of student staff.",
+        "Provide first level support for clients and handle second level customer support escalation when required.",
+        "Arrange training materials and internal documentation to train both student and full time staff in computer networking.",
+        "Organize and improve employee policy using management tools such as Confluence/Atlassian, Slack and Trello."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://oit.uci.edu/"
+    },
+    {
+      "employer": "UC Irvine, Office of Information and Technology",
+      "title": "Consultant",
+      "time": "January 2014 - October 2016",
+      "shorttime": "Jan 14 - Oct 16",
+      "duties": [
+        "Service and support technical networking issues for residents across on-campus housing communities.",
+        "Troubleshoot campus cable TV and the Application, Network, Data and Physical layers of the OSI Networking model. ",
+        "Troubleshoot home routers, various networking software and Windows and Mac operating systems with Wireshark.",
+        "Coordinate with various campus organizations to enforce and maintain campus network policy and infrastructure. ",
+        "Collaborate with campus network engineers and colleagues in troubleshooting procedures, as well as maintenance, repair and installation of core switching and routing equipment."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://oit.uci.edu/"
+    },
+    {
+      "employer": "Taza Systems",
+      "title": "Software Developer",
+      "time": "May 2014 - September 2014",
+      "shorttime": "May 2014 - Sept 2014",
+      "duties": [
+        "Developed and updated mobile applications used by hundreds of customers on a daily basis for the automation of real estate inspection portfolios."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://tazasystems.com/"
+    }
+  ],
+  "involvement": [
+    {
+      "employer": "UC Irvine Medical Center",
+      "title": "Shadowing Dr. Maxwell Jen",
+      "time": "February 2018 - Present",
+      "shorttime": "Feb 18 - Present",
+      "duties": [
+        "Shadowing Dr. Jen has given me an insight of what a typical shift in the Emergency Room is like. There, I was able to observe his bed-side manner and initial exam of patients as they arrived at the Emergency Room. I was then able to look at the tests he ordered and ask question behind the purpose of why the tests were run, as well as inquire about the results. My shadowing experience showed me that a physician’s job is not just to see patients, but is rather dominated by ordering and reading tests, and filling out paperwork."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.ucirvinehealth.org/"
+    },
+    {
+      "employer": "University of California, Irvine Medical Center",
+      "title": "Hospital Volunteer",
+      "time": "February 2017 - Present",
+      "shorttime": "Feb 17 - Present",
+      "duties": [
+        "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking. As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses. This experience showed me the responsibility a physician holds during an emergency and allowed me to gain comfort in such situations."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.ucirvinehealth.org/"
+    },
+    {
+      "employer": "Lestonnac Free Clinic",
+      "title": "Student Volunteer",
+      "time": "December 2017 - Present",
+      "shorttime": "Dec 17 - Present",
+      "duties": [
+        "Volunteering at Lestonnac Free Clinic has taught me to recognize the need of medical attention by the underserved. There, I gained experience in interacting with patients, taking their vitals, such as blood pressure, pulse, respiration rates, blood glucose and hemoglobin levels, as well as run simple tests such as urine analysis and pregnancy tests. I also learned how to use an electronic medical record to input vitals and search for lab results."
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "https://lestonnacfreeclinic.org/"
+    },
+    {
+      "employer": "Pre-Student Osteopathic Medical Association",
+      "title": "Active Member",
+      "time": "October 2017 - Present",
+      "shorttime": "Oct 17 - Present",
+      "duties": [
+        ""
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": ""
+    },
+    {
+      "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
+      "title": "Senior Research Project",
+      "time": "January 2018 - Present",
+      "shorttime": "Jab 18 - Present",
+      "duties": [
+        ""
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.ucirvinehealth.org/"
+    },
+    {
+      "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
+      "title": "Senior Research Project",
+      "time": "January 2017 - June 2017",
+      "shorttime": "Jab 17 - Jun 17",
+      "duties": [
+        ""
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://www.ucirvinehealth.org/"
+    }
+  ],
+  "skills": [
+    {
+      "title": "Laboratory Skills",
+      "details": [
+        "Zeiss Fluorescence Microscope",
+        "Nikon Ti-E Inverted Microscope",
+        "Image Acquisition Pro",
+        "Cryostat sectioning",
+        "Cell culture",
+        "Mice injections",
+        "Basic mice surgical procedures",
+        "Antibody Alliquoting and Titration"
+      ]
+    },
+    {
+      "title": "Programming Skills",
+      "details": [
+        "R",
+        "Python",
+        "JavaScript",
+        "C-Sharp",
+        "Visual Basic",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Technical Skills",
+      "details": [
+        "Microsoft Excel",
+        "Image J",
+        "Adobe Photoshop",
+        "Adobe Illustrator"
+      ]
+    },
+    {
+      "title": "Operating Systems",
+      "details": [
+        "Windows",
+        "Mac OS X",
+        "iOS",
+        "Android"
+      ]
+    }
+  ],
+  "awards": []
 }
