@@ -172,17 +172,17 @@
     {
       "title": "Laboratory Skills",
       "details": [
-		"Cell Culture",
-		"Western Blotting",
-		"Immunoprecipitation",
-		"Antibody Alliquoting and Titration"
-		"Suturing",
-		"Mice injections",
-		"Basic mice surgical Procedures",
-		"Cryostat Sectioning",
-		"Zeiss Fluorescence Microscope",
-		"Nikon Ti-E Inverted Microscope",
-		"Image Aquisition Pro"
+        "Cell Culture",
+        "Western Blotting",
+        "Immunoprecipitation",
+        "Antibody Alliquoting and Titration",
+        "Suturing",
+        "Mice injections",
+        "Basic mice surgical Procedures",
+        "Cryostat Sectioning",
+        "Zeiss Fluorescence Microscope",
+        "Nikon Ti-E Inverted Microscope",
+        "Image Aquisition Pro"
       ]
     },
     {
@@ -191,10 +191,10 @@
         "Python",
         "R",
         "HTML",
-        "CSS"
+        "CSS",
         "JavaScript",
         "C-Sharp",
-        "Visual Basic",
+        "Visual Basic"
       ]
     },
     {
@@ -217,14 +217,14 @@
     }
   ],
   "awards": [
-  	"Cum Laude recognition at graduation"
-  	"Dean’s Honor List: 9 quarters"
-  	"Micro-Kinetic Sensor Development for Novel Rodent Ventilation Detection (2017): Outstanding Student Poster Award and extended poster display following the undergraduate research symposium",
-  	"Protein Expression Analysis in Retinal Organoids (2018): Outstanding Student Poster Award and extended poster display following the undergraduate research symposium",
+    "Cum Laude recognition at graduation",
+    "Dean’s Honor List: 9 quarters",
+    "Micro-Kinetic Sensor Development for Novel Rodent Ventilation Detection (2017): Outstanding Student Poster Award and extended poster display following the undergraduate research symposium",
+    "Protein Expression Analysis in Retinal Organoids (2018): Outstanding Student Poster Award and extended poster display following the undergraduate research symposium"
   ],
   "certifications": [
-  	"American Heart Association Basic Life Support Provider (2018-2020)"
-  	"American Red Cross Lifeguarding and First Aid (2011-2014) (ID: GKK3FD)",
-	"American Red Cross CPR-AED for Lifeguards (2011-2013) (ID: GKK3FD)"
+    "American Heart Association Basic Life Support Provider (2018-2020)",
+    "American Red Cross Lifeguarding and First Aid (2011-2014) (ID: GKK3FD)",
+    "American Red Cross CPR-AED for Lifeguards (2011-2013) (ID: GKK3FD)"
   ]
 }
