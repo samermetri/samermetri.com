@@ -1,6 +1,6 @@
 {
   "name": "Samer Metri",
-  "short_desc": "<p class='m-0'>Pre-Med Student at University of California, Irvine</p><p class='m-0'>Senior Consultant • UC Irvine Office of Information and Technology</p>",
+  "short_desc": "<p class='m-0'>EMT • Care Ambulance, San Diego</p>",
   "education": {
     "school": "University of California, Irvine",
     "degree": "Bachelor of Science, Genetics",
@@ -74,8 +74,8 @@
     {
       "employer": "UC Irvine, Office of Information and Technology",
       "title": "Senior Consultant",
-      "time": "October 2016 - Present",
-      "shorttime": "Oct 16 - Present",
+      "time": "October 2016 - September 2018",
+      "shorttime": "Oct 16 - Sept 18",
       "duties": [
         "Developed SlackBot, a chat bot residing on the communication platform Slack used by 20+ consultants daily to effectively search customer data and troubleshoot issues ranging from account lock-outs to network outages",
         "Supervise and manage day-to-day tasks of student employees, including hiring and scheduling of student staff",
@@ -115,8 +115,8 @@
     {
       "employer": "UC Irvine Medical Center",
       "title": "Shadowing Dr. Maxwell Jen",
-      "time": "February 2018 - Present",
-      "shorttime": "Feb 18 - Present",
+      "time": "February 2018 - June 2018",
+      "shorttime": "Feb 18 - Jun 18",
       "duties": [
         "Observed Dr. Maxwell Jen’s patient interaction and discussed test results and medical treatment options to gain exposure to the treatment of patients suffering traumatic accidents in the Emergency Department"
       ],
@@ -126,8 +126,8 @@
     {
       "employer": "University of California, Irvine Medical Center",
       "title": "Hospital Volunteer",
-      "time": "February 2017 - Present",
-      "shorttime": "Feb 17 - Present",
+      "time": "February 2017 - June 2018",
+      "shorttime": "Feb 17 - Jun 18",
       "duties": [
         "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking. As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses. This experience showed me the responsibility a physician holds during an emergency and allowed me to gain comfort in such situations"
       ],
@@ -137,8 +137,8 @@
     {
       "employer": "Lestonnac Free Clinic",
       "title": "Student Volunteer",
-      "time": "December 2017 - Present",
-      "shorttime": "Dec 17 - Present",
+      "time": "December 2017 - June 2018",
+      "shorttime": "Dec 17 - Jun 18",
       "duties": [
         "Recorded patients’ vitals and translated for Arabic-speaking patients to provide healthcare for low-income families to create a healthy community while gaining insight into the field of internal medicine"
       ],
@@ -148,8 +148,8 @@
     {
       "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
       "title": "Senior Research Project",
-      "time": "January 2018 - Present",
-      "shorttime": "Jab 18 - Present",
+      "time": "January 2018 - June 2018",
+      "shorttime": "Jab 18 - Jun 18",
       "duties": [
         "Studied the protein expression patterns of the differentiation stages of human stem cell derived retinal organoids to decrease the risk of tumor formation"
       ],
