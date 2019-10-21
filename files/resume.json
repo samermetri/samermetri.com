@@ -1,14 +1,24 @@
 {
   "name": "Samer Metri",
-  "short_desc": "<p class='m-0'>Emergency Medical Technician • Care Medical Transportation, Inc.</p>",
-  "education": {
-    "school": "University of California, Irvine",
-    "degree": "Bachelor of Science, Genetics",
-    "graduation": "June 2018",
-    "specialization": "",
-    "GPA": "3.81",
-    "majorGPA": "3.86"
-  },
+  "short_desc": "<p class='m-0'>Medical Student at George Washington University School of Medicine and Health Sciences</p>",
+  "education": [
+    {
+      "school": "University of California, Irvine",
+      "degree": "Bachelor of Science, Genetics",
+      "graduation": "June 2018",
+      "specialization": "",
+      "GPA": "3.81",
+      "majorGPA": "3.86"
+    },
+    {
+      "school": "George Washington University School of Medicine and Health Sciences",
+      "degree": "M.D. Candidate",
+      "graduation": "2023",
+      "specialization": "",
+      "GPA": "",
+      "majorGPA": ""
+    }
+  ],
   "icons": [
     {
       "css": "facebook-square",
