@@ -82,10 +82,21 @@
   ],
   "work_experience": [
     {
+      "employer": "Care Medical Transportation, Inc.",
+      "title": "Emergency Medical Technician",
+      "time": "January 2019 - June 2019",
+      "shorttime": "Jan 19 - Jun 19",
+      "duties": [
+        ""
+      ],
+      "icon": "",
+      "url": ""
+    },
+    {
       "employer": "UC Irvine, Office of Information and Technology",
       "title": "Senior Consultant",
       "time": "October 2016 - September 2018",
-      "shorttime": "Oct 16 - Sept 18",
+      "shorttime": "Oct 16 - Sep 18",
       "duties": [
         "Developed SlackBot, a chat bot residing on the communication platform Slack used by 20+ consultants daily to effectively search customer data and troubleshoot issues ranging from account lock-outs to network outages",
         "Supervise and manage day-to-day tasks of student employees, including hiring and scheduling of student staff",
