@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!--suppress JSUnresolvedVariable -->
+<html lang="en">
+    <head>
+        <title>I3 Exam 1 Histo</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- FavIcon  http://bit.ly/2dcr2mS-->
+        <link rel="icon" href="/img/logo.png">
+        <link rel="shortcut icon" type="image/png" href="/img/logo.png">
+        <!--  Android Chrome -->
+        <meta name="theme-color" content="#3E4551">
+        <meta name="mobile-web-app-capable" content="yes">
+        <!--CSS Imports-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+            integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        </head>
+        <body class="table-dark">
+            <div class="container">
+                <nav class="navbar sticky-top navbar-light" style="background-color: #e3f2fd;">
+                    <a class="navbar-brand" href="#">I3 Exam 1 Histology Slides</a>
+                    <form class="form-inline">
+                      <a class="btn btn-outline-success my-2 my-sm-0" href="javascript:getJSON(true);">Randomize</a>
+                    </form>
+                </nav>
+                <table class="table table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">Slide</th>
+                            <th scope="col">Title</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablebody">
+
+                    </tbody>
+                </table>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+            <script>
+            //$.getJSON("exam1histo.json", function (json) {
+            //   randomize(json);
+            //  print(json);
+            //});
+
+            getJSON()
+            function getJSON(randomize){
+                randomize = randomize || false;
+                $.getJSON("exam1histo.json", function (json) {
+                    if (randomize)
+                        json = shuffle(json);
+                    display(json)
+                }
+               
+            }          
+
+            function display(json){
+                let table_str = "";
+                for (i = 0; i < json.length; i++) {
+                let slide = json[i];
+                
+                table_str += `<tr>
+                    <th scope="col">
+                        <iframe src="http://microanatomyatlas.com/${slide.link}"
+                                    style="height:560px;width:710px;"
+                                    scrolling="auto"
+                                    frameborder="0">
+                        </iframe>
+                    </th>
+                    <td class="align-middle">${slide.title}</td>
+                </tr>`;
+                }
+            
+                document.getElementById("tablebody").innerHTML = table_str;
+            }
+
+            function shuffle(array) {
+                var currentIndex = array.length, temporaryValue, randomIndex;
+
+                // While there remain elements to shuffle...
+                while (0 !== currentIndex) {
+
+                    // Pick a remaining element...
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex -= 1;
+
+                    // And swap it with the current element.
+                    temporaryValue = array[currentIndex];
+                    array[currentIndex] = array[randomIndex];
+                    array[randomIndex] = temporaryValue;
+                }
+                return array;
+                }
+        </script>
+    </body>
+</html>
