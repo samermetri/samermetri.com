@@ -1,8 +1,7 @@
 {
   "name": "Samer Metri",
   "short_desc": "<p class='m-0'>M.D. Candidate at The George Washington University School of Medicine and Health Sciences</p>",
-  "education": [
-    {
+  "education": [{
       "school": "University of California, Irvine",
       "degree": "Bachelor of Science, Genetics",
       "graduation": "June 2018",
@@ -19,8 +18,7 @@
       "majorGPA": ""
     }
   ],
-  "icons": [
-    {
+  "icons": [{
       "css": "facebook-square",
       "url": "https://www.facebook.com/samermetri"
     },
@@ -29,8 +27,7 @@
       "url": "https://www.linkedin.com/in/smetri/"
     }
   ],
-  "research_experience": [
-    {
+  "research_experience": [{
       "employer": "UCI School of Medicine, Department of Physical Medicine and Rehabilitation",
       "title": "Undergraduate Researcher",
       "time": "January 2017 - June 2018",
@@ -80,21 +77,18 @@
       "url": "http://chem.uci.edu/~esserkahngroup/"
     }
   ],
-  "projects": [
-    {
-      "title": "Micro-Kinetic Respirometer, Senior Research Project",
-      "location": "UCI Department of Physical Medicine and Rehabilitation",
-      "time": "January 2017 - June 2018",
-      "shorttime": "Jan 2017 - Jun 2018",
-      "details": [
-        "Designed a prototype micro-kinetic sensor device to measure the breathing of rats to determine the respiration rate through diaphragm distention to predict the effect of anesthesia on rats undergoing surgery"
-      ],
-      "icon": "content/img/uci_icon.png",
-      "url": "http://sites.uci.edu/seilerlab/"
-    }
-  ],
-  "work_experience": [
-    {
+  "projects": [{
+    "title": "Micro-Kinetic Respirometer, Senior Research Project",
+    "location": "UCI Department of Physical Medicine and Rehabilitation",
+    "time": "January 2017 - June 2018",
+    "shorttime": "Jan 2017 - Jun 2018",
+    "details": [
+      "Designed a prototype micro-kinetic sensor device to measure the breathing of rats to determine the respiration rate through diaphragm distention to predict the effect of anesthesia on rats undergoing surgery"
+    ],
+    "icon": "content/img/uci_icon.png",
+    "url": "http://sites.uci.edu/seilerlab/"
+  }],
+  "work_experience": [{
       "employer": "Care Medical Transportation, Inc.",
       "title": "Emergency Medical Technician",
       "time": "January 2019 - June 2019",
@@ -146,8 +140,7 @@
       "url": "http://tazasystems.com/"
     }
   ],
-  "involvement": [
-    {
+  "involvement": [{
       "employer": "George Washington Hospital, Department of Anesthesiology",
       "title": "Anesthesia Technician",
       "time": "May 2020 - Present",
@@ -209,7 +202,7 @@
       "shorttime": "Feb 2017 - Jun 2018",
       "duties": [
         "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking.",
-        "As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses."
+        "As a volunteer in the Emergency Deppartment, I had the opportunity to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses."
       ],
       "icon": "content/img/uci_icon.png",
       "url": "http://www.ucirvinehealth.org/"
@@ -237,8 +230,7 @@
       "url": "https://lestonnacfreeclinic.org/"
     }
   ],
-  "skills": [
-    {
+  "skills": [{
       "title": "Laboratory Skills",
       "details": [
         "Cell Culture",
