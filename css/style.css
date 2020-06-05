@@ -13,9 +13,21 @@
   margin-bottom: 0.5rem !important;
 }
 
+.force-margin-small-top{
+  margin-top: 0.5rem !important;
+}
+
 @media (min-width:768px)
 {
   .text-md-justify-custom{
     text-align:justify!important
   };
+}
+
+.force-no-height{
+    height: 0px !important;
+}
+
+.force-card-up-margin{
+    margin-top: 100px !important;
 }

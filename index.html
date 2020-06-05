@@ -38,13 +38,13 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 
-<body class="grey lighten-4">
-
+<body class="grey lighten-4 d-flex h-100">
   <div class="container">
+    <div style="height:110px;"></div>
     <div class="row align-items-center">
       <div class="col">
-        <div class="card testimonial-card z-depth-4" style="">
-          <div class="card-up stylish-color-dark">
+        <div class="card testimonial-card  z-depth-4" style="">
+          <div class="card-up stylish-color-dark force-no-height">
           </div>
           <div class="avatar mx-auto white z-depth-2 animated fadeIn">
             <img src="img/profile-pic.jpg" class="rounded-circle" title="Samer Metri's Profile Picture" alt="Samer Metri's Profile Picture" />
@@ -107,7 +107,9 @@
                 </div>
               </div>
             </div>
-            <hr />
+            <a class="btn btn-outline-primary btn-sm" role="button" href="mailto:samermetri@gmail.com"><i class="fa fa-envelope mr-1"></i>Email me</a>
+
+            <hr class="force-margin-small-top" />
             <div class="container-fluid">
               <div class="row row-eq-height">
                 <!--Research-->
@@ -152,29 +154,10 @@
               </div>
             </div>
           </div>
-          <!--<div class="row text-center">-->
-          <div class="pt-1 text-center">
-            <div class="d-none d-md-block">
-              <a class="btn btn-info btn-rounded btn-action z-depth-4 cyan accent-4 animated fadeIn" href="javascript:downloadResume();"><i class="fa fa-arrow-down mr-1"></i>Download Resume</a>
-              <a class="btn btn-info btn-rounded btn-action z-depth-4 cyan accent-4 animated fadeIn" href="mailto:samermetri@gmail.com"><i class="fa fa-envelope mr-1"></i>Contact Me</a>
-            </div>
-            <div class="d.block d-md-none">
-              <div class="container">
-                <div class="float-left">
-                  <a class="btn btn-info btn-action z-depth-4 cyan accent-4" href="javascript:downloadResume();"><i class="fa fa-arrow-down mr-1"></i>Resume</a>
-                </div>
-                <div class="float-right">
-                  <a class="btn btn-info btn-action z-depth-4 cyan accent-4" href="mailto:samermetri@gmail.com"><i class="fa fa-envelope mr-1"></i>Email Me</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--</div>-->
         </div>
       </div>
     </div>
   </div>
-
 
   <div class="modal fade" id="research-modal" tabindex="-1" role="dialog" aria-labelledby="researchModal" aria-hidden="true">
     <div id="research-modal-placeholder" class="modal-dialog modal-lg" role="document">
