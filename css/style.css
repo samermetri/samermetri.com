@@ -12,3 +12,10 @@
 .force-margin-small-bottom{
   margin-bottom: 0.5rem !important;
 }
+
+@media (min-width:768px)
+{
+  .text-md-justify-custom{
+    text-align:justify!important
+  };
+}
