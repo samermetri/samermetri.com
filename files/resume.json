@@ -1,6 +1,6 @@
 {
   "name": "Samer Metri",
-  "short_desc": "<p class='m-0'>Medical Student at George Washington University School of Medicine and Health Sciences</p>",
+  "short_desc": "<p class='m-0'>M.D. Candidate at The George Washington University School of Medicine and Health Sciences</p>",
   "education": [
     {
       "school": "University of California, Irvine",
@@ -14,7 +14,7 @@
       "school": "George Washington University School of Medicine and Health Sciences",
       "degree": "M.D. Candidate",
       "graduation": "2023",
-      "specialization": "",
+      "specialization": "Disaster Medicine",
       "GPA": "",
       "majorGPA": ""
     }
@@ -31,7 +31,7 @@
   ],
   "research_experience": [
     {
-      "employer": "Sue and Bill Gross Stem Cell Research Center, Seiler Lab",
+      "employer": "UCI School of Medicine, Department of Physical Medicine and Rehabilitation",
       "title": "Undergraduate Researcher",
       "time": "January 2017 - June 2018",
       "shorttime": "Jan 17 - Jun 18",
@@ -43,7 +43,7 @@
       "url": "http://sites.uci.edu/seilerlab/"
     },
     {
-      "employer": "Sue and Bill Gross Stem Cell Research Center, Boiko Lab",
+      "employer": "UCI Department of Molecular Biology and Biochemistry",
       "title": "Undergraduate Researcher",
       "time": "October 2016 - June 2017",
       "shorttime": "Oct 16 - Jun 17",
@@ -78,6 +78,19 @@
       ],
       "icon": "content/img/uci_icon.png",
       "url": "http://chem.uci.edu/~esserkahngroup/"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Micro-Kinetic Breahalizer, Senior Research Project",
+      "location": "UCI School of Medicine, Department of Physical Medicine and Rehabilitation",
+      "time": "January 2017 - June 2018",
+      "shorttime": "Jan 17 - Jun 18",
+      "details": [
+        "Designed a prototype micro-kinetic sensor device to measure the breathing of rats to determine the respiration rate through diaphragm distention to predict the effect of anesthesia on rats undergoing surgery"
+      ],
+      "icon": "content/img/uci_icon.png",
+      "url": "http://sites.uci.edu/seilerlab/"
     }
   ],
   "work_experience": [
@@ -135,6 +148,50 @@
   ],
   "involvement": [
     {
+      "employer": "George Washington Hospital, Department of Anesthesiology",
+      "title": "Anesthesia Technician",
+      "time": "May 2020 - Present",
+      "shorttime": "May 20 - Present",
+      "duties": [
+        "Prepared and restocked operating rooms with anesthesiology equipment"
+      ],
+      "icon": "",
+      "url": ""
+    },
+    {
+      "employer": "George Washington Hospital",
+      "title": "COVID-19 Drive-Through Testing Medical Volunteer",
+      "time": "May 2020 - Present",
+      "shorttime": "May 20 - Present",
+      "duties": [
+        "Performed Nasopharyngeal and Nasal swabs on symptomatic patients with suspected SARS-CoV-2 infections"
+      ],
+      "icon": "",
+      "url": ""
+    },
+    {
+      "employer": "D.C. Department of Health",
+      "title": "COVID-19 Drive-Through Testing Medical Volunteer",
+      "time": "May 2020 - Present",
+      "shorttime": "May 20 - Present",
+      "duties": [
+        "Performed Nasopharyngeal and Nasal swabs on symptomatic patients with suspected SARS-CoV-2 infections"
+      ],
+      "icon": "",
+      "url": ""
+    },
+    {
+      "employer": "D.C. Department of Health, Medical Reserve Corps",
+      "title": "Medical Volunteer at the DC Women's March",
+      "time": "March 2020",
+      "shorttime": "Mar 20",
+      "duties": [
+        "Monitored public safety and administered fird-aid level of care to patients"
+      ],
+      "icon": "",
+      "url": ""
+    },
+    {
       "employer": "UC Irvine Medical Center",
       "title": "Shadowing Dr. Maxwell Jen",
       "time": "February 2018 - June 2018",
@@ -151,7 +208,8 @@
       "time": "February 2017 - June 2018",
       "shorttime": "Feb 17 - Jun 18",
       "duties": [
-        "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking. As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses. This experience showed me the responsibility a physician holds during an emergency and allowed me to gain comfort in such situations"
+        "During my volunteering experience at the UCI Medical Center, I developed my interaction skills with patients and gained comfort in a hospital environment. I learned about patient discharges, the infrastructure used for the rapid delivery of samples through vacuum tubes, as well as preparing patient beds and restocking.",
+        "As a volunteer in the ED, I also had a chance to observe traumas as they first arrived at the hospital, as well as assist the technicians and nurses."
       ],
       "icon": "content/img/uci_icon.png",
       "url": "http://www.ucirvinehealth.org/"
@@ -168,26 +226,15 @@
       "url": "https://lestonnacfreeclinic.org/"
     },
     {
-      "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
-      "title": "Senior Research Project",
-      "time": "January 2018 - June 2018",
-      "shorttime": "Jab 18 - Jun 18",
+      "employer": "UC Irvine School of Biological Sciences",
+      "title": "Biological Sciences Peer Tutor",
+      "time": "Septtember 2017 - June 2018",
+      "shorttime": "Sep 17 - Jun 18",
       "duties": [
-        "Studied the protein expression patterns of the differentiation stages of human stem cell derived retinal organoids to decrease the risk of tumor formation"
+        "Tutored undergraduate students in Molecular Biology and Genetics courses, as well as held pre-exam review sessions"
       ],
       "icon": "content/img/uci_icon.png",
-      "url": "http://www.ucirvinehealth.org/"
-    },
-    {
-      "employer": "UC Irvine Department of Physical Medicine & Rehabilitation",
-      "title": "Senior Research Project",
-      "time": "January 2017 - June 2017",
-      "shorttime": "Jab 17 - Jun 17",
-      "duties": [
-        "Designed a prototype micro-kinetic sensor device to measure the breathing of rats to determine the respiration rate through diaphragm distention to predict the effect of anesthesia on rats undergoing surgery"
-      ],
-      "icon": "content/img/uci_icon.png",
-      "url": "http://www.ucirvinehealth.org/"
+      "url": "https://lestonnacfreeclinic.org/"
     }
   ],
   "skills": [

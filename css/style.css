@@ -1,1 +1,14 @@
 /* Your custom styles */
+
+.portfolio-block.cv {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.force-no-padding{
+  padding: 0px !important;
+}
+
+.force-margin-small-bottom{
+  margin-bottom: 0.5rem !important;
+}

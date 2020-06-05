@@ -33,13 +33,14 @@
     <link rel="manifest" href="files/manifest.json">
 
     <!--CSS Imports-->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/mdb.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
           integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body class="grey lighten-4">
+
 <div class="container">
     <div class="row align-items-center">
         <div class="col">
@@ -59,7 +60,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="short_desc" class="small grey-text">
+                        <div id="short_desc" style="color:#747373;" class="">
                             <div class="preloader-wrapper small active">
                                 <div class="spinner-layer spinner-blue">
                                     <div class="circle-clipper left">
@@ -188,17 +189,26 @@
         </div>
     </div>
 </div>
+
+
 <div class="modal fade" id="research-modal" tabindex="-1" role="dialog" aria-labelledby="researchModal"
      aria-hidden="true">
     <div id="research-modal-placeholder" class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="researchModal">Research Experience</h5>
+                <h4 class="modal-title heading" id="researchModal">Research Experience</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
+              <section class="portfolio-block cv">
+                <div class="container">
+                    <div class="education group">
+                      <div class="modal-resume-content"></div>
+                    </div>
+                </div>
+              </section>
             </div>
         </div>
     </div>
@@ -207,12 +217,19 @@
     <div id="work-modal-placeholder" class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="workModal">Work Experience</h5>
+                <h4 class="modal-title" id="workModal">Work Experience</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
+              <section class="portfolio-block cv">
+                <div class="container">
+                    <div class="education group">
+                      <div class="modal-resume-content"></div>
+                    </div>
+                </div>
+              </section>
             </div>
         </div>
     </div>
@@ -222,16 +239,24 @@
     <div id="involvement-modal-placeholder" class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="involvementModal">Involvement</h5>
+                <h4 class="modal-title" id="involvementModal">Involvement</h4>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
+              <section class="portfolio-block cv">
+                <div class="container">
+                    <div class="education group">
+                      <div class="modal-resume-content"></div>
+                    </div>
+                </div>
+              </section>
             </div>
         </div>
     </div>
 </div>
+
 <script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/mdb.min.js"></script>
@@ -245,25 +270,22 @@
             let spacer = (i === 0) ? '' : 'mt-2';
             for (d = 0; d < exp.duties.length; d++) {
                 duties += "<li>" + exp.duties[d] + "</li>"
-            }
-            research_str += `<div class="card ${spacer}">
-                                <div class="card-header stylish-color-dark white-text">
-                                    <div>
-                                        ${exp.title} at ${exp.employer}
-                                        <small class="text-muted">${exp.shorttime}</small>
+            };
+              research_str += `<div class="card ${spacer}">
+                                  <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-9">
+                                            <h3 class="force-no-padding">${exp.title}</h3>
+                                            <h4 class="organization force-margin-small-bottom">${exp.employer}</h4>
+                                        </div>
+                                        <div class="hidden-sm-down col-md-3"><span class="period">${exp.shorttime}</span></div>
                                     </div>
-                                </div>
-                                <div class="card-body">
-                                    <div class="card-text">
-                                        <ul>
-                                            ${duties}
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>`;
+                                    <div class="card-text text-justify"><ul>${duties}</ul></div>
+                                  </div>
+                                </div>`;
         }
         const modal = $("#research-modal");
-        modal.find('.modal-body').html(research_str);
+         modal.find('.modal-resume-content').html(research_str);
     }
 
     function fillWork(experience) {
@@ -274,25 +296,22 @@
             let spacer = (i === 0) ? '' : 'mt-2';
             for (d = 0; d < exp.duties.length; d++) {
                 duties += "<li>" + exp.duties[d] + "</li>"
-            }
+            };
             work_str += `<div class="card ${spacer}">
-                            <div class="card-header stylish-color-dark white-text">
-                                <div>
-                                    ${exp.title} at ${exp.employer}
-                                    <small class="text-muted">${exp.shorttime}</small>
-                                </div>
-                            </div>
                             <div class="card-body">
-                                <div class="card-text">
-                                    <ul>
-                                        ${duties}
-                                    </ul>
-                                </div>
+                              <div class="row">
+                                  <div class="col-sm-12 col-md-9">
+                                      <h3 class="force-no-padding">${exp.title}</h3>
+                                      <h4 class="organization force-margin-small-bottom">${exp.employer}</h4>
+                                  </div>
+                                  <div class="hidden-sm-down col-md-3"><span class="period">${exp.shorttime}</span></div>
+                              </div>
+                              <div class="card-text text-justify"><ul>${duties}</ul></div>
                             </div>
                           </div>`;
         }
         const modal = $("#work-modal");
-        modal.find('.modal-body').html(work_str);
+        modal.find('.modal-resume-content').html(work_str);
     }
 
     function fillInvolvement(experience) {
@@ -303,25 +322,22 @@
             let spacer = (i === 0) ? '' : 'mt-2';
             for (d = 0; d < exp.duties.length; d++) {
                 duties += "<li>" + exp.duties[d] + "</li>"
-            }
+            };
             involvement_str += `<div class="card ${spacer}">
-                                    <div class="card-header stylish-color-dark white-text">
-                                        <div>
-                                            ${exp.title} at ${exp.employer}
-                                            <small class="text-muted">${exp.shorttime}</small>
+                                  <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-sm-12 col-md-9">
+                                            <h3 class="force-no-padding">${exp.title}</h3>
+                                            <h4 class="organization force-margin-small-bottom">${exp.employer}</h4>
                                         </div>
+                                        <div class="hidden-sm-down col-md-3"><span class="period">${exp.shorttime}</span></div>
                                     </div>
-                                    <div class="card-body">
-                                        <div class="card-text">
-                                            <ul>
-                                                ${duties}
-                                            </ul>
-                                        </div>
-                                    </div>
+                                    <div class="card-text text-justify"><ul>${duties}</ul></div>
+                                  </div>
                                 </div>`;
         }
         const modal = $("#involvement-modal");
-        modal.find('.modal-body').html(involvement_str);
+        modal.find('.modal-resume-content').html(involvement_str);
     }
 
     function fillIcons(icons) {
@@ -399,7 +415,7 @@
 	                "https://www.linkedin.com/in/samer-metri-a85642118",
 	                "https://plus.google.com/u/0/110972891061876363044"
 	            ]
-	    	}	
+	    	}
 
 
 </script>
