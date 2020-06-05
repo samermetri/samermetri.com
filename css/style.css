@@ -29,5 +29,9 @@
 }
 
 .force-card-up-margin{
-    margin-top: 100px !important;
+    margin-top: 150px !important;
+}
+
+.avatar-large{
+  width:200px !important;
 }
