@@ -28,12 +28,26 @@
     height: 0px !important;
 }
 
-.force-card-up-margin{
+.force-card-up-margin-large{
     margin-top: 150px !important;
+}
+
+.force-card-up-margin-small{
+    margin-top: 75px !important;
 }
 
 .avatar-large{
   width:200px !important;
   max-width: 200px !important;
   margin-top: -100px !important;
+}
+
+.avatar-small{
+  width:100px !important;
+  max-width: 100px !important;
+  margin-top: -50px !important;
+}
+
+.force-no-margin-bottom{
+  margin-bottom: 0 !important;
 }
