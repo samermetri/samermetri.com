@@ -4,9 +4,9 @@
   "display": "browser",
   "background_color": "#f5f5f5",
   "theme_color": "#3E4551",
-  "description": "Medical Student at George Washington University School of Medicine and Health Sciences",
+  "description": "Emergency Medicine Resident Physician",
   "icons": [{
-    "src": "/img/logo.png",
+    "src": "old//img/logo.png",
     "type": "image/png"
   }],
   "start_url": "/index.html",
