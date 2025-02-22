@@ -2,21 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.samermetri.com/</loc>
-    <lastmod>2018-04-25</lastmod>
+    <lastmod>2025-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
       <image:image>
-        <image:loc>https://www.samermetri.com/img/profile-pic.jpg</image:loc>
+        <image:loc>https://www.samermetri.com/photo-npaibpy17x80.jpg</image:loc>
         <image:title>Samer Metri's Profile Picture</image:title>
-      </image:image>
-      <image:image>
-        <image:loc>https://www.samermetri.com/img/research-bg.jpg</image:loc>
-        <image:title>Samer Metri's Image at Research</image:title>
       </image:image>
   </url>
    <url>
-    <loc>https://www.samermetri.com/files/resume.pdf</loc>
-    <lastmod>2018-04-25</lastmod>
+    <loc>https://www.samermetri.com/samer-metri-resume.pdf</loc>
+    <lastmod>2025-02-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
